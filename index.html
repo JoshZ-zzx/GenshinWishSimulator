@@ -1,0 +1,1329 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#eaf7f7">
+  <meta name="description" content="原神角色活动祈愿模拟器与资源规划工具，支持大小保底、捕获明光、资源回收、多轮出金预测和祈愿统计。">
+  <title>原神祈愿模拟器 · 独立版</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <main class="wish-page">
+    <div class="aurora one" aria-hidden="true"></div>
+    <div class="aurora two" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <div class="top-left">
+        <a
+          class="home-button"
+          href="https://joshzhangzzx.top/"
+          aria-label="返回主页"
+          title="返回主页"
+        >
+          <span aria-hidden="true">←</span>
+          返回主页
+        </a>
+
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            ✦
+          </span>
+
+          <div>
+            <b>原神祈愿模拟器</b>
+            <small>
+              独立版 · CHARACTER EVENT WISH
+            </small>
+          </div>
+        </div>
+      </div>
+
+      <div class="top-actions">
+        <button
+          id="guide-open"
+          class="icon-button"
+          type="button"
+          aria-label="打开使用说明"
+          title="使用说明"
+        >
+          ?
+        </button>
+
+        <button
+          id="settings-open"
+          class="icon-button"
+          type="button"
+          aria-label="打开设置"
+          title="祈愿设置"
+        >
+          ⚙
+        </button>
+      </div>
+    </header>
+
+    <section
+      class="featured-roster"
+      aria-label="本期概率提升角色"
+    >
+      <article class="featured-five-card">
+        <div id="up-five-avatar" class="featured-avatar" aria-hidden="true"></div>
+        <div class="featured-five-copy">
+          <span class="featured-label">
+            本期五星概率 UP
+          </span>
+
+          <strong id="up-character"></strong>
+        </div>
+
+        <div class="featured-five-meta">
+          <span class="five-stars">
+            ★★★★★
+          </span>
+
+          <span
+            id="up-element-badge"
+            class="element-badge"
+          ></span>
+        </div>
+      </article>
+
+      <div
+        class="featured-four-group"
+        aria-label="本期四星概率提升角色"
+      >
+        <article
+          id="up-four-card-1"
+          class="featured-four-card"
+        >
+          <div id="up-four-avatar-1" class="featured-avatar" aria-hidden="true"></div>
+          <div class="featured-four-copy">
+          <span
+            id="up-four-element-1"
+            class="featured-four-element"
+          ></span>
+
+          <strong id="up-four-name-1"></strong>
+
+          <span class="featured-four-stars">
+            ★★★★
+          </span>
+          </div>
+        </article>
+
+        <article
+          id="up-four-card-2"
+          class="featured-four-card"
+        >
+          <div id="up-four-avatar-2" class="featured-avatar" aria-hidden="true"></div>
+          <div class="featured-four-copy">
+          <span
+            id="up-four-element-2"
+            class="featured-four-element"
+          ></span>
+
+          <strong id="up-four-name-2"></strong>
+
+          <span class="featured-four-stars">
+            ★★★★
+          </span>
+          </div>
+        </article>
+
+        <article
+          id="up-four-card-3"
+          class="featured-four-card"
+        >
+          <div id="up-four-avatar-3" class="featured-avatar" aria-hidden="true"></div>
+          <div class="featured-four-copy">
+          <span
+            id="up-four-element-3"
+            class="featured-four-element"
+          ></span>
+
+          <strong id="up-four-name-3"></strong>
+
+          <span class="featured-four-stars">
+            ★★★★
+          </span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <p class="image-source-note">独立版 · 角色与物品图片按需联网显示</p>
+    <nav
+      class="mode-tabs"
+      aria-label="主功能切换"
+    >
+      <button
+        class="mode-tab"
+        type="button"
+        data-main-view="wish"
+        aria-selected="true"
+      >
+        常规祈愿模拟
+      </button>
+
+      <button
+        class="mode-tab"
+        type="button"
+        data-main-view="prediction"
+        aria-selected="false"
+      >
+        资源规划与出金预测
+      </button>
+    </nav>
+
+    <div
+      id="wish-view"
+      class="main-view"
+    >
+
+    <section class="hero">
+      <div class="eyebrow">
+        <span></span>
+        限时角色活动祈愿
+        <span></span>
+      </div>
+
+      <p
+        id="banner-name"
+        class="banner-name"
+      ></p>
+
+      <div class="stats-panel">
+        <div class="stats-head">
+          <div class="stats-title">
+            <b>统计</b>
+            <small>WISH RECORD</small>
+          </div>
+        </div>
+
+        <div
+          class="stats-grid"
+          aria-label="祈愿统计与当前保底状态"
+        >
+          <div class="pity-item">
+            <span class="pity-label">
+              五星水位
+            </span>
+
+            <b
+              id="five-pity"
+              class="pity-value"
+            ></b>
+
+            <progress
+              id="five-progress"
+              max="90"
+              value="0"
+            ></progress>
+          </div>
+
+          <div class="pity-item">
+            <span class="pity-label">
+              四星水位
+            </span>
+
+            <b
+              id="four-pity"
+              class="pity-value"
+            ></b>
+
+            <progress
+              id="four-progress"
+              max="10"
+              value="0"
+            ></progress>
+          </div>
+
+          <div class="pity-item">
+            <span class="pity-label">
+              下一五星
+            </span>
+
+            <b
+              id="guarantee-state"
+              class="pity-value"
+            ></b>
+
+            <small
+              id="guarantee-detail"
+              class="pity-detail"
+            ></small>
+          </div>
+
+          <div class="pity-item">
+            <span class="pity-label">
+              明光轨迹
+            </span>
+
+            <b
+              id="radiance-state"
+              class="pity-value"
+            ></b>
+
+            <small
+              id="radiance-detail"
+              class="pity-detail"
+            ></small>
+          </div>
+
+          <div class="pity-item">
+            <span class="pity-label">
+              累计祈愿
+            </span>
+
+            <b
+              id="total-wishes"
+              class="pity-value"
+            ></b>
+
+            <small
+              id="rarity-counts"
+              class="pity-detail"
+            ></small>
+          </div>
+
+          <div class="pity-item">
+            <span class="pity-label">
+              本轮追 UP
+            </span>
+
+            <b
+              id="up-cycle-pulls"
+              class="pity-value"
+            ></b>
+
+            <small class="pity-detail">
+              从上次 UP 后累计
+            </small>
+          </div>
+
+          <div class="pity-item">
+            <span class="pity-label">
+              上次 UP
+            </span>
+
+            <b
+              id="last-up-pulls"
+              class="pity-value"
+            ></b>
+
+            <small class="pity-detail">
+              本轮累计第几抽获得
+            </small>
+          </div>
+
+          <div class="pity-item">
+            <span class="pity-label">
+              平均出 UP
+            </span>
+
+            <b
+              id="average-up-pulls"
+              class="pity-value"
+            ></b>
+
+            <small
+              id="up-count-detail"
+              class="pity-detail"
+            ></small>
+          </div>
+
+          <div class="pity-item">
+            <span class="pity-label">
+              平均出金水位
+            </span>
+
+            <b
+              id="average-five-pity"
+              class="pity-value"
+            ></b>
+
+            <small
+              id="five-count-detail"
+              class="pity-detail"
+            ></small>
+          </div>
+
+          <div class="pity-item">
+            <span class="pity-label">
+              手气评估
+            </span>
+
+            <b
+              id="luck-level"
+              class="pity-value luck-value"
+            ></b>
+
+            <small
+              id="luck-detail"
+              class="pity-detail"
+            ></small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="result-stage"
+      class="result-stage"
+      aria-live="polite"
+      aria-label="本轮祈愿结果"
+    ></section>
+
+    <section
+      class="wish-controls"
+      aria-label="祈愿操作"
+    >
+      <button
+        id="single-wish"
+        class="wish-button"
+        type="button"
+      >
+        <strong>祈愿 1 次</strong>
+        <small>✦ 160</small>
+      </button>
+
+      <button
+        id="ten-wish"
+        class="wish-button ten"
+        type="button"
+      >
+        <strong>祈愿 10 次</strong>
+        <small>✦ 1,600</small>
+      </button>
+    </section>
+
+    <button
+      id="rules-open"
+      class="rules-link"
+      type="button"
+    >
+      概率与机制说明
+      <span>→</span>
+    </button>
+
+    <p class="tiny-footer">
+      非官方概率模拟工具 · 数据仅保存在当前浏览器
+    </p>
+    </div>
+
+    <section
+      id="prediction-view"
+      class="main-view prediction-page"
+      hidden
+    >
+      <div class="prediction-shell">
+        <header class="prediction-page-head">
+          <div>
+            <span>资源规划</span>
+            <h2>角色池 UP 五星出金预测</h2>
+          </div>
+
+          <p>
+            从相同初始状态独立重复模拟，评估现有纠缠之缘、原石及回收资源是否足以获得当期 UP 五星。
+          </p>
+        </header>
+
+        <div class="prediction-body">
+          <div class="prediction-controls">
+            <div class="prediction-form-grid">
+              <label class="field">
+                <span>角色池五星垫抽数</span>
+                <input
+                  id="prediction-five-pity"
+                  type="number"
+                  min="0"
+                  max="89"
+                  step="1"
+                  value="0"
+                  inputmode="numeric"
+                >
+              </label>
+
+              <label class="field">
+                <span>角色池四星垫抽数(武器/角色均重置)</span>
+                <input
+                  id="prediction-four-pity"
+                  type="number"
+                  min="0"
+                  max="99"
+                  step="1"
+                  value="0"
+                  inputmode="numeric"
+                >
+              </label>
+
+              <label class="field">
+                <span>下一五星状态</span>
+                <select id="prediction-guarantee">
+                  <option value="small">小保底</option>
+                  <option value="big">大保底</option>
+                </select>
+              </label>
+
+              <label class="field">
+                <span>小保底连续歪</span>
+                <select id="prediction-radiance">
+                  <option value="0">0 次</option>
+                  <option value="1">1 次</option>
+                  <option value="2">2 次</option>
+                  <option value="3">3 次</option>
+                </select>
+              </label>
+
+              <label class="field">
+                <span>下一四星状态</span>
+                <select id="prediction-four-guarantee">
+                  <option value="small">小保底</option>
+                  <option value="big">大保底</option>
+                </select>
+              </label>
+
+              <label class="field">
+                <span>纠缠之缘</span>
+                <input
+                  id="prediction-fates"
+                  type="number"
+                  min="0"
+                  max="1000000"
+                  step="1"
+                  value="0"
+                  inputmode="numeric"
+                >
+              </label>
+
+              <label class="field">
+                <span>原石</span>
+                <input
+                  id="prediction-primos"
+                  type="number"
+                  min="0"
+                  max="160000000"
+                  step="1"
+                  value="0"
+                  inputmode="numeric"
+                >
+              </label>
+
+              <label class="field">
+                <span>无主的星辉</span>
+                <input
+                  id="prediction-glitter"
+                  type="number"
+                  min="0"
+                  max="1000000"
+                  step="1"
+                  value="0"
+                  inputmode="numeric"
+                >
+              </label>
+
+              <label class="field">
+                <span>无主的星尘</span>
+                <input
+                  id="prediction-dust"
+                  type="number"
+                  min="0"
+                  max="1000000"
+                  step="1"
+                  value="0"
+                  inputmode="numeric"
+                >
+              </label>
+
+              <label class="field">
+                <span>本月剩余星尘兑换</span>
+                <input
+                  id="prediction-dust-quota"
+                  type="number"
+                  min="0"
+                  max="5"
+                  step="1"
+                  value="5"
+                  inputmode="numeric"
+                >
+              </label>
+
+              <label class="field">
+                <span>独立模拟次数(建议设置100000)</span>
+                <input
+                  id="prediction-runs"
+                  type="number"
+                  min="1"
+                  max="1000000"
+                  step="1"
+                  value="100000"
+                  inputmode="numeric"
+                >
+              </label>
+
+              <label class="field full-span">
+                <span>
+                  星辉返还估算
+                  <small>按账号角色持有情况选择</small>
+                </span>
+
+                <select id="prediction-recycle-profile">
+                  <option value="normal">
+                    常规：每个四星按 2 星辉，五星不计
+                  </option>
+                  <option value="conservative">
+                    保守：四星、五星均不计星辉
+                  </option>
+                  <option value="mature">
+                    高命：四星角色 5、武器 2，歪五星 10
+                  </option>
+                </select>
+              </label>
+            </div>
+
+            <div class="resource-total">
+              <span>当前可立即使用</span>
+              <strong id="prediction-base-pulls">0 抽</strong>
+              <small id="prediction-equation"></small>
+            </div>
+
+            <p class="prediction-assumption">
+              模拟会把三星武器返还的 15 星尘、四五星返还的星辉继续兑换纠缠之缘。
+              星辉按 5:1 且不限量；星尘按 75:1，并受你填写的本月剩余兑换上限约束。
+            </p>
+
+            <button
+              id="prediction-run"
+              class="prediction-run"
+              type="button"
+            >
+              开始独立模拟
+            </button>
+
+            <progress
+              id="prediction-run-progress"
+              class="prediction-run-progress"
+              max="100"
+              value="0"
+              hidden
+            ></progress>
+
+            <p
+              id="prediction-run-status"
+              class="prediction-run-status"
+              aria-live="polite"
+            ></p>
+          </div>
+
+          <div class="prediction-results">
+            <div
+              id="prediction-placeholder"
+              class="prediction-placeholder"
+            >
+              填写资源与当前垫抽状态后开始模拟。<br>
+              每一轮都会从相同初始状态独立运行，直到获得当期 UP 五星或资源用尽。
+            </div>
+
+            <div id="prediction-output" hidden>
+              <div class="prediction-summary">
+                <article>
+                  <span>成功概率</span>
+                  <strong id="prediction-success-rate"></strong>
+                </article>
+
+                <article>
+                  <span>成功轮次平均出 UP</span>
+                  <strong id="prediction-average"></strong>
+                </article>
+
+                <article>
+                  <span>中位数</span>
+                  <strong id="prediction-median"></strong>
+                </article>
+
+                <article>
+                  <span>平均回收抽数</span>
+                  <strong id="prediction-recycled-average"></strong>
+                </article>
+              </div>
+
+              <section
+                class="prediction-distribution"
+                aria-labelledby="prediction-distribution-title"
+              >
+                <div class="distribution-head">
+                  <div>
+                    <span>频率分布</span>
+                    <h3 id="prediction-distribution-title">
+                      UP 五星到手抽数
+                    </h3>
+                    <p>
+                      每根柱表示该抽数区间内获得当期 UP 的轮次；百分比以全部模拟轮次为分母。
+                    </p>
+                  </div>
+
+                  <label class="distribution-bin-size">
+                    <span>抽数区间</span>
+                    <select id="prediction-bin-size">
+                      <option value="5">每 5 抽</option>
+                      <option value="10" selected>每 10 抽</option>
+                      <option value="20">每 20 抽</option>
+                    </select>
+                  </label>
+                </div>
+
+                <div class="distribution-overview">
+                  <span
+                    id="prediction-distribution-success"
+                    class="distribution-chip"
+                  ></span>
+
+                  <span
+                    id="prediction-distribution-failure"
+                    class="distribution-chip failure"
+                  ></span>
+
+                  <span
+                    id="prediction-distribution-scale"
+                    class="distribution-scale"
+                  ></span>
+                </div>
+
+                <div
+                  class="histogram-scroll"
+                  tabindex="0"
+                  aria-label="出金抽数频率分布图，可横向滚动查看全部区间"
+                >
+                  <div
+                    id="prediction-histogram"
+                    class="prediction-histogram"
+                    role="list"
+                  ></div>
+                </div>
+              </section>
+
+              <div class="prediction-actions">
+                <p id="prediction-export-note">
+                  完整模拟明细不会在页面中展开，可按需下载 CSV 查看。
+                </p>
+
+                <button
+                  id="prediction-download"
+                  class="prediction-download"
+                  type="button"
+                >
+                  下载详细结果 CSV
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="tiny-footer">
+        非官方概率模拟工具 · 数据仅保存在当前浏览器
+      </p>
+    </section>
+    <section class="extension-panel" aria-labelledby="planner-title">
+      <div class="extension-heading"><div><small>PLAN YOUR WISHES</small><h2 id="planner-title">多目标与预算规划</h2></div><span>角色活动祈愿</span></div>
+      <p>计算额外获得多个 UP 五星的总预算，可用于命座或依次抽取不同角色。沿用上方预测区的初始保底与捕获明光状态；不同角色按同类角色活动池规则、保底连续继承计算。</p>
+      <div class="planner-fields">
+        <label class="field"><span>额外需要的 UP 份数</span><input id="planner-copies" type="number" min="1" max="14" value="1" step="1"></label>
+        <label class="field"><span>可用预算（抽）</span><input id="planner-budget" type="number" min="0" max="10000" value="180" step="1"></label>
+        <label class="field"><span>独立模拟次数</span><select id="planner-runs"><option value="20000">20,000 次</option><option value="100000">100,000 次</option></select></label>
+      </div>
+      <div class="extension-actions"><button id="planner-start" type="button">计算成功率与所需预算</button><button id="planner-cancel" type="button" disabled>取消计算</button></div>
+      <progress id="planner-progress" max="100" value="0" hidden aria-label="多目标模拟进度"></progress>
+      <p id="planner-status" role="status" aria-live="polite">填写 1 表示一个 UP；从未持有到满命填写 7。</p>
+      <div id="planner-result" hidden></div>
+      <p class="extension-note">本规划使用与旧版一致的概率模型，结果为随机模拟估计，不含星辉、星尘回收或未来收入。需要回收估算时，请使用原有的“资源规划与出金预测”。计算无法预测真实账号的抽卡结果。</p>
+    </section>
+    <section class="extension-panel" aria-labelledby="backup-title">
+      <h2 id="backup-title">存档与迁移</h2>
+      <p>备份当前保底、累计统计、卡池配置和自定义列表；切换设备或域名前，请先导出。旧版没有持久保存逐抽历史，备份不包含已关闭页面中的临时结果。</p>
+      <div class="extension-actions"><button id="backup-export" type="button">导出完整存档</button><label class="file-button" for="backup-import">导入存档</label><input id="backup-import" type="file" accept=".json,application/json" hidden><a href="https://joshzhangzzx.top/GenshinMigration.html" target="_blank" rel="noopener">从 ToolBox 迁移旧存档 ↗</a></div>
+      <p id="backup-status" role="status" aria-live="polite">存档仅保存在当前浏览器，不会上传到服务器。</p>
+    </section>
+
+  </main>
+
+  <div
+    id="settings-modal"
+    class="modal-backdrop"
+    role="presentation"
+    hidden
+  >
+    <section
+      class="modal settings-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="settings-title"
+    >
+      <header class="modal-head">
+        <div>
+          <span>祈愿配置</span>
+          <h2 id="settings-title">
+            调整卡池、状态与列表
+          </h2>
+        </div>
+
+        <button
+          class="close-button"
+          type="button"
+          data-close="settings-modal"
+          aria-label="关闭设置"
+        >
+          ×
+        </button>
+      </header>
+
+      <div class="modal-body settings-body">
+        <label class="field">
+          <span>五星 UP 角色</span>
+          <select id="up-five-select"></select>
+        </label>
+
+        <div class="field">
+          <span>
+            四星 UP 角色
+            <small>请选择三名不同角色</small>
+          </span>
+
+          <div class="triple">
+            <select
+              id="up-four-1"
+              aria-label="第一名四星 UP 角色"
+            ></select>
+
+            <select
+              id="up-four-2"
+              aria-label="第二名四星 UP 角色"
+            ></select>
+
+            <select
+              id="up-four-3"
+              aria-label="第三名四星 UP 角色"
+            ></select>
+          </div>
+        </div>
+
+        <div class="up-reset-row">
+          <div>
+            <b>恢复源码中的当期 UP</b>
+            <small>
+              读取项目预设的默认五星与四星 UP；祈愿记录及自定义列表不会清空，保存后生效。
+            </small>
+          </div>
+
+          <button
+            id="reset-up-pool"
+            class="up-reset-button"
+            type="button"
+          >
+            重置 UP 卡池
+          </button>
+        </div>
+
+        <section
+          class="settings-section"
+          aria-labelledby="wish-state-settings-title"
+        >
+          <div class="settings-section-head">
+            <b id="wish-state-settings-title">
+              当前祈愿状态
+            </b>
+            <small>
+              可从指定垫数和保底状态继续常规祈愿；保存后会同步到“资源规划与出金预测”。
+            </small>
+          </div>
+
+          <div class="settings-state-grid">
+            <label class="field">
+              <span>五星垫抽数</span>
+              <input
+                id="settings-five-pity"
+                type="number"
+                min="0"
+                max="89"
+                step="1"
+                inputmode="numeric"
+              >
+            </label>
+
+            <label class="field">
+              <span>四星垫抽数</span>
+              <input
+                id="settings-four-pity"
+                type="number"
+                min="0"
+                max="99"
+                step="1"
+                inputmode="numeric"
+              >
+            </label>
+
+            <label class="field">
+              <span>下一五星状态</span>
+              <select id="settings-guarantee-five">
+                <option value="small">小保底</option>
+                <option value="big">大保底</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>下一四星状态</span>
+              <select id="settings-guarantee-four">
+                <option value="small">小保底</option>
+                <option value="big">大保底</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>小保底连续歪</span>
+              <select id="settings-radiance-losses">
+                <option value="0">0 次</option>
+                <option value="1">1 次</option>
+                <option value="2">2 次</option>
+                <option value="3">3 次</option>
+              </select>
+            </label>
+
+            <p class="settings-state-note">
+              “下一四星状态”表示上次四星未命中当期 UP 时进入的四星大保底；五星顶掉四星时不会重置四星垫数。
+            </p>
+          </div>
+        </section>
+
+        <details class="settings-section">
+          <summary>
+            <b>累计统计数据</b>
+            <small>
+              需要完整接续旧记录时可展开填写；只想指定当前垫数时无需修改。
+            </small>
+          </summary>
+
+          <div class="settings-state-grid">
+            <label class="field">
+              <span>累计祈愿数</span>
+              <input id="settings-total" type="number" min="0" max="1000000000" step="1" inputmode="numeric">
+            </label>
+
+            <label class="field">
+              <span>累计五星数</span>
+              <input id="settings-total-five" type="number" min="0" max="1000000000" step="1" inputmode="numeric">
+            </label>
+
+            <label class="field">
+              <span>其中 UP 五星数</span>
+              <input id="settings-up-five-count" type="number" min="0" max="1000000000" step="1" inputmode="numeric">
+            </label>
+
+            <label class="field">
+              <span>其中歪五星数</span>
+              <input id="settings-off-banner-five-count" type="number" min="0" max="1000000000" step="1" inputmode="numeric">
+            </label>
+
+            <label class="field">
+              <span>累计四星数</span>
+              <input id="settings-total-four" type="number" min="0" max="1000000000" step="1" inputmode="numeric">
+            </label>
+
+            <label class="field">
+              <span>累计三星数</span>
+              <input id="settings-total-three" type="number" min="0" max="1000000000" step="1" inputmode="numeric">
+            </label>
+
+            <label class="field">
+              <span>五星出金水位总和</span>
+              <input id="settings-five-pity-sum" type="number" min="0" max="90000000000" step="1" inputmode="numeric">
+            </label>
+
+            <label class="field">
+              <span>四星出紫水位总和</span>
+              <input id="settings-four-pity-sum" type="number" min="0" max="10000000000" step="1" inputmode="numeric">
+            </label>
+
+            <label class="field">
+              <span>本轮追 UP 抽数</span>
+              <input id="settings-up-cycle-pulls" type="number" min="0" max="1000000000" step="1" inputmode="numeric">
+            </label>
+
+            <label class="field">
+              <span>上次出 UP 抽数</span>
+              <input id="settings-last-up-pulls" type="number" min="0" max="1000000000" step="1" inputmode="numeric">
+            </label>
+
+            <label class="field">
+              <span>历次出 UP 抽数总和</span>
+              <input id="settings-up-pulls-sum" type="number" min="0" max="100000000000" step="1" inputmode="numeric">
+            </label>
+          </div>
+        </details>
+
+        <label class="field">
+          <span>
+            常驻五星池
+            <small>Ctrl / ⌘ 可多选</small>
+          </span>
+
+          <select
+            id="standard-five-select"
+            multiple
+          ></select>
+        </label>
+
+        <label class="field">
+          <span>
+            四星角色池
+            <small>Ctrl / ⌘ 可多选</small>
+          </span>
+
+          <select
+            id="four-character-select"
+            multiple
+          ></select>
+        </label>
+
+        <label class="field">
+          <span>
+            四星武器池
+            <small>Ctrl / ⌘ 可多选</small>
+          </span>
+
+          <select
+            id="four-weapon-select"
+            multiple
+          ></select>
+        </label>
+
+        <label class="field">
+          <span>
+            三星武器池
+            <small>Ctrl / ⌘ 可多选</small>
+          </span>
+
+          <select
+            id="three-weapon-select"
+            multiple
+          ></select>
+        </label>
+
+        <section
+          class="pool-manager"
+          aria-labelledby="pool-manager-title"
+        >
+          <div class="pool-manager-head">
+            <b id="pool-manager-title">
+              自定义角色 / 武器列表
+            </b>
+            <small>
+              先选择要修改的列表类型，而后选中要修改的角色/直接添加新角色并指定其元素属性。
+            </small>
+          </div>
+
+          <div class="pool-manager-grid">
+            <select
+              id="catalog-manager-list"
+              class="pool-manager-list"
+              multiple
+              aria-label="当前分类条目"
+            ></select>
+
+            <div class="pool-manager-tools">
+              <select
+                id="catalog-manager-category"
+                aria-label="选择要管理的分类"
+              >
+                <option value="limitedFive">
+                  五星 UP 候选角色
+                </option>
+                <option value="standardFive">
+                  常驻五星角色
+                </option>
+                <option value="fourCharacters">
+                  四星角色
+                </option>
+                <option value="fourWeapons">
+                  四星武器
+                </option>
+                <option value="threeWeapons">
+                  三星武器
+                </option>
+              </select>
+
+              <input
+                id="catalog-item-name"
+                type="text"
+                maxlength="30"
+                placeholder="输入要添加的角色或武器名称"
+                autocomplete="off"
+              >
+
+              <select
+                id="catalog-item-element"
+                aria-label="角色元素属性"
+              >
+                <option value="风">风元素</option>
+                <option value="岩">岩元素</option>
+                <option value="雷">雷元素</option>
+                <option value="草">草元素</option>
+                <option value="水">水元素</option>
+                <option value="火">火元素</option>
+                <option value="冰">冰元素</option>
+              </select>
+
+              <div class="pool-manager-actions">
+                <button
+                  id="catalog-add"
+                  class="add-item"
+                  type="button"
+                >
+                  添加 / 更新
+                </button>
+
+                <button
+                  id="catalog-delete"
+                  class="delete-item"
+                  type="button"
+                >
+                  删除所选
+                </button>
+
+                <button
+                  id="catalog-restore"
+                  type="button"
+                >
+                  恢复该分类默认项
+                </button>
+              </div>
+
+              <p
+                id="catalog-manager-note"
+                class="pool-manager-note"
+              ></p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="modal-foot">
+        <button
+          id="reset-record"
+          class="danger-button"
+          type="button"
+        >
+          重置祈愿记录
+        </button>
+
+        <button
+          class="secondary-button"
+          type="button"
+          data-close="settings-modal"
+        >
+          取消
+        </button>
+
+        <button
+          id="settings-save"
+          class="primary-button"
+          type="button"
+        >
+          保存全部配置
+        </button>
+      </footer>
+    </section>
+  </div>
+
+  <div
+    id="guide-modal"
+    class="modal-backdrop"
+    role="presentation"
+    hidden
+  >
+    <section
+      class="modal rules-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="guide-title"
+    >
+      <header class="modal-head">
+        <div>
+          <span>快速上手</span>
+          <h2 id="guide-title">使用说明</h2>
+        </div>
+
+        <button
+          class="close-button"
+          type="button"
+          data-close="guide-modal"
+          aria-label="关闭使用说明"
+        >
+          ×
+        </button>
+      </header>
+
+      <div class="guide-list">
+        <article>
+          <b>常规祈愿模拟</b>
+          <p>
+            使用顶部菜单进入后点击单抽或十连。电脑端十连按五星、四星、三星排序横向展示；手机端为十行列表。悬停角色或武器可看本抽触发的保底机制，触屏设备可点按查看。
+          </p>
+        </article>
+
+        <article>
+          <b>统计与垫抽</b>
+          <p>
+            五星和四星水位都只对应角色活动祈愿：角色池抽到三星武器会同时累加两种水位，抽到任意四星角色或武器会重置四星水位。大小保底、捕获明光和统计记录保存在当前浏览器。
+          </p>
+        </article>
+
+        <article>
+          <b>资源与出金预测</b>
+          <p>
+            通过顶部菜单切换。五星垫抽可对应提瓦特小助手的“角色”栏；四星垫抽是角色池距最近四星角色或武器的抽数。填写资源与模拟轮数后运行，页面会同时显示汇总和出金抽数频率分布，可切换每 5、10 或 20 抽为一个区间；完整逐轮结果仍可下载 CSV。
+          </p>
+        </article>
+
+        <article>
+          <b>设置与列表管理</b>
+          <p>
+            右上角齿轮可选择当期五星与四星 UP、指定当前垫数与保底状态，并在需要时接续全部累计统计。点击“重置 UP 卡池”可读取源码中的最新默认 UP，不会清空祈愿记录或自定义列表。列表管理器仍可添加、删除或恢复默认条目；自定义角色时请同时选择正确元素。
+          </p>
+        </article>
+
+        <article>
+          <b>数据说明</b>
+          <p>
+            所有设置和祈愿记录仅存于当前浏览器的本地存储；清理浏览器数据或更换设备后不会自动同步。概率拟合的边界与未公开机制请查看“概率与机制说明”。
+          </p>
+        </article>
+      </div>
+
+      <footer class="modal-foot">
+        <button
+          class="primary-button"
+          type="button"
+          data-close="guide-modal"
+        >
+          开始使用
+        </button>
+      </footer>
+    </section>
+  </div>
+
+  <div
+    id="rules-modal"
+    class="modal-backdrop"
+    role="presentation"
+    hidden
+  >
+    <section
+      class="modal rules-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="rules-title"
+    >
+      <header class="modal-head">
+        <div>
+          <span>算法透明</span>
+
+          <h2 id="rules-title">
+            概率与保底
+          </h2>
+        </div>
+
+        <button
+          class="close-button"
+          type="button"
+          data-close="rules-modal"
+          aria-label="关闭说明"
+        >
+          ×
+        </button>
+      </header>
+
+      <div class="rules">
+        <p>
+          <b>五星</b>
+          基础概率为 0.6%，第 74 抽起使用常见大样本拟合的软保底曲线逐抽提高，
+          第 90 抽必出五星；获得五星后五星水位归零。
+        </p>
+
+        <p>
+          <b>大小保底</b>
+          非大保底五星先进行 50/50；实际歪到常驻角色后，
+          下个五星必定为当期 UP。五星水位和大保底状态会保存在当前浏览器。
+        </p>
+
+        <p>
+          <b>捕获明光</b>
+          普通小保底原本会歪时，基础转化率按 6% 模拟；
+          连续实际歪两轮后，下一次小保底的综合 UP 概率为 75%；
+          连续实际歪三轮后，下次小保底直接触发捕获明光。
+        </p>
+
+        <p>
+          <b>四星</b>
+          基础概率为 5.1%，第 9 抽使用常见拟合概率，
+          第 10 抽必出四星或以上。五星判定优先；
+          若五星顶掉四星保底，四星保底会顺延到之后的抽取。
+        </p>
+
+        <p>
+          <b>四星 UP</b>
+          非四星大保底时，有 50% 概率命中三名 UP 角色之一；
+          若获得非 UP 四星物品，则下个四星必为 UP 角色。
+        </p>
+
+        <p>
+          <b>资源回收</b>
+          资源预测按 160 原石或 5 星辉兑换 1 个纠缠之缘；
+          三星武器返还 15 星尘，星尘兑换按每个 75、当月最多 5 个计算。
+          因角色持有与命座状态会改变星辉返还，预测面板提供保守、常规和高命三档；
+          页面只显示汇总，完整逐轮结果可导出为 CSV。
+        </p>
+
+        <p>
+          <b>手气评估</b>
+          综合平均五星水位、UP 命中率和四星水位生成 0–100 分娱乐评级；
+          新增统计只记录本版本之后的祈愿，样本越多，评级越稳定。
+        </p>
+
+        <p class="note">
+          重要说明：官方公开了基础概率、综合概率、硬保底、大小保底和捕获明光的
+          关键规则，但没有公开完整服务器代码、软保底逐抽曲线及全部池内权重。
+          本工具对未公开部分采用社区最常见的统计拟合，因此可高度模拟，
+          不能声称与服务器随机实现逐位一致。仅供娱乐。
+        </p>
+      </div>
+
+      <footer class="modal-foot">
+        <button
+          class="primary-button"
+          type="button"
+          data-close="rules-modal"
+        >
+          我知道了
+        </button>
+      </footer>
+    </section>
+  </div>
+
+  <div
+    id="toast"
+    class="toast"
+    role="status"
+    aria-live="polite"
+    hidden
+  ></div>
+
+  <script defer src="./data/images.js"></script>
+<script defer src="./data/catalog.js"></script>
+<script defer src="./js/engine.js"></script>
+<script defer src="./js/app.js"></script>
+</body>
+</html>
+
+
