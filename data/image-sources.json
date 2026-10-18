@@ -1,0 +1,1293 @@
+[
+  {
+    "name": "爱诺",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Aino.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Aino.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "阿贝多",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
+      "https://enka.network/ui/UI_AvatarIcon_Albedo.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Albedo.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "艾尔海森",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Alhatham.png",
+      "https://enka.network/ui/UI_AvatarIcon_Alhatham.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Alhatham.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "阿罗夏",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Alyosha.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Alyosha.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "荒泷一斗",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Itto.png",
+      "https://enka.network/ui/UI_AvatarIcon_Itto.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Itto.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "阿蕾奇诺",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Arlecchino.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Arlecchino.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Arlecchino.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "白术",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Baizhuer.png",
+      "https://enka.network/ui/UI_AvatarIcon_Baizhuer.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Baizhuer.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "芭芭拉",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
+      "https://enka.network/ui/UI_AvatarIcon_Barbara.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "北斗",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
+      "https://enka.network/ui/UI_AvatarIcon_Beidou.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "班尼特",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
+      "https://enka.network/ui/UI_AvatarIcon_Bennett.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "坎蒂丝",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Candace.png",
+      "https://enka.network/ui/UI_AvatarIcon_Candace.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "夏洛蒂",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Charlotte.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Charlotte.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "恰斯卡",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Chasca.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chasca.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Chasca.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "夏沃蕾",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Chevreuse.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chevreuse.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "千织",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Chiori.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chiori.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Chiori.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "重云",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chongyun.png",
+      "https://enka.network/ui/UI_AvatarIcon_Chongyun.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "茜特菈莉",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Citlali.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Citlali.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Citlali.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "克洛琳德",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Clorinde.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Clorinde.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "柯莱",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Collei.png",
+      "https://enka.network/ui/UI_AvatarIcon_Collei.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "哥伦比娅",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Columbina.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Columbina.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Columbina.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "赛诺",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Cyno.png",
+      "https://enka.network/ui/UI_AvatarIcon_Cyno.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Cyno.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "塔利雅",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Dahlia.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dahlia.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "迪希雅",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dehya.png",
+      "https://enka.network/ui/UI_AvatarIcon_Dehya.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "迪卢克",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diluc.png",
+      "https://enka.network/ui/UI_AvatarIcon_Diluc.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "迪奥娜",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
+      "https://enka.network/ui/UI_AvatarIcon_Diona.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "多莉",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dori.png",
+      "https://enka.network/ui/UI_AvatarIcon_Dori.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "杜林",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Durin.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Durin.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Durin.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "艾梅莉埃",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Emilie.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Emilie.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Emilie.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "爱可菲",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Escoffier.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Escoffier.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Escoffier.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "优菈",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Eula.png",
+      "https://enka.network/ui/UI_AvatarIcon_Eula.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Eula.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "珐露珊",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Faruzan.png",
+      "https://enka.network/ui/UI_AvatarIcon_Faruzan.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "菲谢尔",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Fischl.png",
+      "https://enka.network/ui/UI_AvatarIcon_Fischl.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "菲林斯",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Flins.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Flins.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Flins.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "菲米尼",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Freminet.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Freminet.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "芙宁娜",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Furina.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Furina.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Furina.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "嘉明",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Gaming.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gaming.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "甘雨",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ganyu.png",
+      "https://enka.network/ui/UI_AvatarIcon_Ganyu.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Ganyu.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "五郎",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gorou.png",
+      "https://enka.network/ui/UI_AvatarIcon_Gorou.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "胡桃",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Hutao.png",
+      "https://enka.network/ui/UI_AvatarIcon_Hutao.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Hutao.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "伊安珊",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Iansan.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Iansan.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "伊法",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Ifa.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ifa.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "叶洛亚",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Illuga.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Illuga.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "伊涅芙",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Ineffa.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ineffa.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Ineffa.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "雅珂达",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Jahoda.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Jahoda.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "琴",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qin.png",
+      "https://enka.network/ui/UI_AvatarIcon_Qin.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "卡齐娜",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Kachina.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kachina.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "枫原万叶",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kazuha.png",
+      "https://enka.network/ui/UI_AvatarIcon_Kazuha.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Kazuha.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "神里绫华",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayaka.png",
+      "https://enka.network/ui/UI_AvatarIcon_Ayaka.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Ayaka.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "神里绫人",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayato.png",
+      "https://enka.network/ui/UI_AvatarIcon_Ayato.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Ayato.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "卡维",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kaveh.png",
+      "https://enka.network/ui/UI_AvatarIcon_Kaveh.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "刻晴",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Keqing.png",
+      "https://enka.network/ui/UI_AvatarIcon_Keqing.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "基尼奇",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Kinich.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kinich.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Kinich.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "绮良良",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Momoka.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Momoka.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "可莉",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Klee.png",
+      "https://enka.network/ui/UI_AvatarIcon_Klee.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Klee.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "九条裟罗",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sara.png",
+      "https://enka.network/ui/UI_AvatarIcon_Sara.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "久岐忍",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shinobu.png",
+      "https://enka.network/ui/UI_AvatarIcon_Shinobu.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "蓝砚",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Lanyan.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lanyan.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "菈乌玛",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Lauma.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lauma.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Lauma.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "莱依拉",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Layla.png",
+      "https://enka.network/ui/UI_AvatarIcon_Layla.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "莉奈娅",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Linnea.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Linnea.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Linnea.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "洛恩",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Lohen.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lohen.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Lohen.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "琳妮特",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Linette.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Linette.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "林尼",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Liney.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liney.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Liney.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "玛薇卡",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Mavuika.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mavuika.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Mavuika.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "米卡",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mika.png",
+      "https://enka.network/ui/UI_AvatarIcon_Mika.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "莫娜",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Mona.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mona.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "玛拉妮",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Mualani.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mualani.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Mualani.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "纳西妲",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nahida.png",
+      "https://enka.network/ui/UI_AvatarIcon_Nahida.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Nahida.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "娜维娅",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Navia.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Navia.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Navia.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "奈芙尔",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Nefer.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nefer.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Nefer.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "那维莱特",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Neuvillette.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Neuvillette.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Neuvillette.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "尼可",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Nicole.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nicole.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Nicole.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "妮露",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nilou.png",
+      "https://enka.network/ui/UI_AvatarIcon_Nilou.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Nilou.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "凝光",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
+      "https://enka.network/ui/UI_AvatarIcon_Ningguang.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "诺艾尔",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
+      "https://enka.network/ui/UI_AvatarIcon_Noel.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "奥黛塔",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Odette.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Odette.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Odette.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "欧洛伦",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Olorun.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Olorun.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "布伦妮",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Prune.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Prune.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "七七",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qiqi.png",
+      "https://enka.network/ui/UI_AvatarIcon_Qiqi.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "雷电将军",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Shougun.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shougun.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Shougun.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "雷泽",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Razor.png",
+      "https://enka.network/ui/UI_AvatarIcon_Razor.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "罗莎莉亚",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Rosaria.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Rosaria.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "桑多涅",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_MarionetteNew.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_MarionetteNew.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Sandrone.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "珊瑚宫心海",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Kokomi.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kokomi.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Kokomi.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "早柚",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Sayu.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sayu.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "赛索斯",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Sethos.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sethos.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "申鹤",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shenhe.png",
+      "https://enka.network/ui/UI_AvatarIcon_Shenhe.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Shenhe.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "鹿野院平藏",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Heizo.png",
+      "https://enka.network/ui/UI_AvatarIcon_Heizo.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "希格雯",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Sigewinne.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sigewinne.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Sigewinne.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "丝柯克",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_SkirkNew.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_SkirkNew.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Skirk.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "砂糖",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sucrose.png",
+      "https://enka.network/ui/UI_AvatarIcon_Sucrose.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "达达利亚",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Tartaglia.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tartaglia.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Tartaglia.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "托马",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tohma.png",
+      "https://enka.network/ui/UI_AvatarIcon_Tohma.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "提纳里",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Tighnari.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tighnari.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "瓦雷莎",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Varesa.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Varesa.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Varesa.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "法尔伽",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Varka.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Varka.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Varka.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "温迪",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Venti.png",
+      "https://enka.network/ui/UI_AvatarIcon_Venti.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Venti.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "薇斯纳",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Vesna.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Vesna.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Vesna.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "沃雅妮莎",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Vodyanitsa.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Vodyanitsa.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Vodyanitsa.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "流浪者",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wanderer.png",
+      "https://enka.network/ui/UI_AvatarIcon_Wanderer.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Wanderer.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "莱欧斯利",
+    "urls": [
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Wriothesley.webp",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wriothesley.png",
+      "https://enka.network/ui/UI_AvatarIcon_Wriothesley.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "香菱",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiangling.png",
+      "https://enka.network/ui/UI_AvatarIcon_Xiangling.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "闲云",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Liuyun.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liuyun.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Liuyun.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "魈",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiao.png",
+      "https://enka.network/ui/UI_AvatarIcon_Xiao.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Xiao.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "希诺宁",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Xilonen.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xilonen.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Xilonen.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "行秋",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
+      "https://enka.network/ui/UI_AvatarIcon_Xingqiu.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "辛焱",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Xinyan.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "八重神子",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yae.png",
+      "https://enka.network/ui/UI_AvatarIcon_Yae.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Yae.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "烟绯",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
+      "https://enka.network/ui/UI_AvatarIcon_Feiyan.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "瑶瑶",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yaoyao.png",
+      "https://enka.network/ui/UI_AvatarIcon_Yaoyao.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "夜兰",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yelan.png",
+      "https://enka.network/ui/UI_AvatarIcon_Yelan.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Yelan.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "宵宫",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Yoimiya.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yoimiya.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Yoimiya.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "梦见月瑞希",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Mizuki.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mizuki.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "云堇",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Yunjin.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yunjin.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "钟离",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zhongli.png",
+      "https://enka.network/ui/UI_AvatarIcon_Zhongli.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Zhongli.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "兹白",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Zibai.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zibai.png",
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Zibai.webp"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "黑缨枪",
+    "urls": [
+      "https://enka.network/ui/UI_EquipIcon_Pole_Noire.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Noire.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "沐浴龙血的剑",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Siegfry.png",
+      "https://enka.network/ui/UI_EquipIcon_Claymore_Siegfry.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "冷刃",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Steel.png",
+      "https://enka.network/ui/UI_EquipIcon_Sword_Steel.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "以理服人",
+    "urls": [
+      "https://enka.network/ui/UI_EquipIcon_Claymore_Reasoning.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Reasoning.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "匣里灭辰",
+    "urls": [
+      "https://enka.network/ui/UI_EquipIcon_Pole_Stardust.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "翡玉法球",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Jade.png",
+      "https://enka.network/ui/UI_EquipIcon_Catalyst_Jade.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "昭心",
+    "urls": [
+      "https://enka.network/ui/UI_EquipIcon_Catalyst_Truelens.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "西风秘典",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+      "https://enka.network/ui/UI_EquipIcon_Catalyst_Zephyrus.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "西风大剑",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+      "https://enka.network/ui/UI_EquipIcon_Claymore_Zephyrus.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "西风长枪",
+    "urls": [
+      "https://enka.network/ui/UI_EquipIcon_Pole_Zephyrus.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "西风剑",
+    "urls": [
+      "https://enka.network/ui/UI_EquipIcon_Sword_Zephyrus.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "西风猎弓",
+    "urls": [
+      "https://enka.network/ui/UI_EquipIcon_Bow_Zephyrus.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "铁影阔剑",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Glaive.png",
+      "https://enka.network/ui/UI_EquipIcon_Claymore_Glaive.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "黎明神剑",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Dawn.png",
+      "https://enka.network/ui/UI_EquipIcon_Sword_Dawn.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "匣里龙吟",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+      "https://enka.network/ui/UI_EquipIcon_Sword_Rockkiller.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "魔导绪论",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Intro.png",
+      "https://enka.network/ui/UI_EquipIcon_Catalyst_Intro.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "雨裁",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+      "https://enka.network/ui/UI_EquipIcon_Claymore_Perdue.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "鸦羽弓",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Crowfeather.png",
+      "https://enka.network/ui/UI_EquipIcon_Bow_Crowfeather.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "弓藏",
+    "urls": [
+      "https://enka.network/ui/UI_EquipIcon_Bow_Recluse.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "祭礼弓",
+    "urls": [
+      "https://enka.network/ui/UI_EquipIcon_Bow_Fossil.png",
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "祭礼残章",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+      "https://enka.network/ui/UI_EquipIcon_Catalyst_Fossil.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "祭礼大剑",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+      "https://enka.network/ui/UI_EquipIcon_Claymore_Fossil.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "祭礼剑",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+      "https://enka.network/ui/UI_EquipIcon_Sword_Fossil.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "神射手之誓",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arjuna.png",
+      "https://enka.network/ui/UI_EquipIcon_Bow_Arjuna.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "飞天御剑",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mitsurugi.png",
+      "https://enka.network/ui/UI_EquipIcon_Sword_Mitsurugi.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "弹弓",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Sling.png",
+      "https://enka.network/ui/UI_EquipIcon_Bow_Sling.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "钟剑",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+      "https://enka.network/ui/UI_EquipIcon_Claymore_Troupe.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "笛剑",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+      "https://enka.network/ui/UI_EquipIcon_Sword_Troupe.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "绝弦",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+      "https://enka.network/ui/UI_EquipIcon_Bow_Troupe.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "流浪乐章",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+      "https://enka.network/ui/UI_EquipIcon_Catalyst_Troupe.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "讨龙英杰谭",
+    "urls": [
+      "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pulpfic.png",
+      "https://enka.network/ui/UI_EquipIcon_Catalyst_Pulpfic.png"
+    ],
+    "type": "weapons"
+  },
+  {
+    "name": "风",
+    "urls": [
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/anemo.webp",
+      "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Element_Anemo.png"
+    ],
+    "type": "elements"
+  },
+  {
+    "name": "岩",
+    "urls": [
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/geo.webp",
+      "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Element_Geo.png"
+    ],
+    "type": "elements"
+  },
+  {
+    "name": "雷",
+    "urls": [
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/electro.webp",
+      "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Element_Electro.png"
+    ],
+    "type": "elements"
+  },
+  {
+    "name": "草",
+    "urls": [
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/dendro.webp",
+      "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Element_Dendro.png"
+    ],
+    "type": "elements"
+  },
+  {
+    "name": "水",
+    "urls": [
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/hydro.webp",
+      "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Element_Hydro.png"
+    ],
+    "type": "elements"
+  },
+  {
+    "name": "火",
+    "urls": [
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/pyro.webp",
+      "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Element_Pyro.png"
+    ],
+    "type": "elements"
+  },
+  {
+    "name": "冰",
+    "urls": [
+      "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/cryo.webp",
+      "https://static.wikia.nocookie.net/gensin-impact/images/8/88/Element_Cryo.png"
+    ],
+    "type": "elements"
+  }
+]

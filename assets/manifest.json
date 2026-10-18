@@ -1,0 +1,3607 @@
+{
+  "generatedAt": "2026-10-18",
+  "note": "Non-official fan simulator. Game images and character designs belong to their respective rights holders. Source URLs record provenance, not a grant of license. Images resized and encoded to WebP for this site.",
+  "assets": [
+    {
+      "name": "七七",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qiqi.png",
+        "https://enka.network/ui/UI_AvatarIcon_Qiqi.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Qiqi.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qiqi.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18030,
+      "sha256": "38560ab1ebe6d79122286397aed937a160cb44aa03f7344450981df3bf0ad08b",
+      "embeddedWebpBytes": 13402,
+      "embeddedWebpSha256": "8df38831c08fdac47812ad7c05172b51c8a542a5693b1b82982b8b580e6cf2b1",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "丝柯克",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_SkirkNew.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_SkirkNew.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Skirk.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_SkirkNew.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_SkirkNew.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 22526,
+      "sha256": "6722201e02d3e9b18716072333e128a8ef2ab872cfb4a3f8cba66ae89bbdf016",
+      "embeddedWebpBytes": 16774,
+      "embeddedWebpSha256": "c778f1a32d597d0193a6d8862ddedfb94466255d1fd16b2b8aba5b93007d0617",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "久岐忍",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shinobu.png",
+        "https://enka.network/ui/UI_AvatarIcon_Shinobu.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Shinobu.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shinobu.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 22230,
+      "sha256": "cea9cc1abdc1a2cc0e6119f69e3374b72c59580411d7e32c87da82e413cac1ee",
+      "embeddedWebpBytes": 16552,
+      "embeddedWebpSha256": "c28d3549eec199c264ba81a5725ff5acdb3168221d5b55b5ce97da381d90a74d",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "九条裟罗",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sara.png",
+        "https://enka.network/ui/UI_AvatarIcon_Sara.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Sara.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Sara.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18434,
+      "sha256": "1461750ee11fdd7f6d1ba5cd24b580315740d7006dd10e2937eab116e781133c",
+      "embeddedWebpBytes": 13706,
+      "embeddedWebpSha256": "6bc8e5f30594784169e2c0a47165d194052353cad5269d8c46a71f4bf8117b39",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "云堇",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Yunjin.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yunjin.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Yunjin.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Yunjin.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 16454,
+      "sha256": "51d5bc7e5bb1453a222d1e4bfd3d5fbfa255b6748a776e7a8e993f50be3748cb",
+      "embeddedWebpBytes": 12220,
+      "embeddedWebpSha256": "61971c73ecbb906b4e91dc55ffd529c053ab04a91979c5482685b95e0e7d7371",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "五郎",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gorou.png",
+        "https://enka.network/ui/UI_AvatarIcon_Gorou.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Gorou.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gorou.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20782,
+      "sha256": "0929b4d3183294c9165960fa8ea496badc910c8308ac784724c63b6c804b93a8",
+      "embeddedWebpBytes": 15468,
+      "embeddedWebpSha256": "0df85e88bf976dcf934ac34777798dbde4caf62e6deb606acf1f116af008f17f",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "伊安珊",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Iansan.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Iansan.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Iansan.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Iansan.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 19742,
+      "sha256": "c54e326ce8321f6cad569906a37324032a6f61b9014a74ae8f4a03c81611f389",
+      "embeddedWebpBytes": 14686,
+      "embeddedWebpSha256": "7e4991a91562d36b8ff833cf0a48ff187e6fc6a65d5a924dcb9bf4ab62a64f82",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "伊法",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Ifa.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ifa.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Ifa.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Ifa.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21966,
+      "sha256": "e33c52f2c15efb0e7159e1e53ab545301bf416e6f0f3dfc22335fdcae1c93a6c",
+      "embeddedWebpBytes": 16356,
+      "embeddedWebpSha256": "357485f71ecffb28f7c11c0542e248031563a4ebbb7501bcaf4874790b3d6ce5",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "伊涅芙",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Ineffa.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ineffa.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Ineffa.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Ineffa.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Ineffa.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 19590,
+      "sha256": "4729a7c300059a73cf2ee4ce4a888e947ea63878fd7f73e2621c561489248625",
+      "embeddedWebpBytes": 14574,
+      "embeddedWebpSha256": "ac58316ec6374939559faeb465418ef474238e6f44f0a44e6bb9373080ccdb13",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "优菈",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Eula.png",
+        "https://enka.network/ui/UI_AvatarIcon_Eula.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Eula.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Eula.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Eula.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21246,
+      "sha256": "4b43f332f9035fb6d56620b2e0f8b49004a8b1d711c0c9aad83ab462f9ced213",
+      "embeddedWebpBytes": 15816,
+      "embeddedWebpSha256": "c9d14d6e853426e8429c8f5975f22db8b7c317656086660b2098449a18eecbbf",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "克洛琳德",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Clorinde.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Clorinde.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Clorinde.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Clorinde.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20110,
+      "sha256": "79e0e5c0948c46c0a4ebf12ebe1337ce7bf4c5c8a12066e7ac275d91ffc6363e",
+      "embeddedWebpBytes": 14964,
+      "embeddedWebpSha256": "bb1bf8150386ca11dedb27caecb12da48e6107ce66e5a426e8966446a93e9836",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "八重神子",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yae.png",
+        "https://enka.network/ui/UI_AvatarIcon_Yae.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Yae.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Yae.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yae.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21302,
+      "sha256": "7649ef0eb352ec83bf24eedb0bf888d913d0eb28c10e8e58347b47c68ba83b7a",
+      "embeddedWebpBytes": 15858,
+      "embeddedWebpSha256": "ac546aeef204218258c250ae14f821d477d59f800060c500ee749e85b50c3a12",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "兹白",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Zibai.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zibai.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Zibai.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Zibai.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Zibai.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 19810,
+      "sha256": "92d9e8a9e3d1e0f46b8d5acfab04dbb0fb3b054cabcdfd1986da2004959cf0a7",
+      "embeddedWebpBytes": 14738,
+      "embeddedWebpSha256": "954a61eb0b0a09eb4c4360df65674ea89996e645dba26ba487c97b80726cf7d4",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "凝光",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
+        "https://enka.network/ui/UI_AvatarIcon_Ningguang.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Ningguang.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20246,
+      "sha256": "3ec8482d6cc7b74296eb6bb9aa376d0d305fb80a0d460b7a488d4dafbb210f53",
+      "embeddedWebpBytes": 15064,
+      "embeddedWebpSha256": "8ac3ec4d1165d8ae7025fee9e9dfb67b6bd9477d1c4d87b499d8c8de16887d3a",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "刻晴",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Keqing.png",
+        "https://enka.network/ui/UI_AvatarIcon_Keqing.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Keqing.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Keqing.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21534,
+      "sha256": "d6aead57e060b8fbd6a499f2ba543cc6d048e97dc631331572b924c406995924",
+      "embeddedWebpBytes": 16030,
+      "embeddedWebpSha256": "ba8571061b74bd69ea0db36021b1106872a443aeb3491503af9f8aebf7b6c53a",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "北斗",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
+        "https://enka.network/ui/UI_AvatarIcon_Beidou.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Beidou.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20126,
+      "sha256": "6c2e561486af9f1bad78d080f81adedda4210fb8d5794b1d04bf11e833cc08d3",
+      "embeddedWebpBytes": 14976,
+      "embeddedWebpSha256": "e416ad3587ad939fc0c332c1dbce9d03482e0036dabacfd4dd1ce2a9a2c1a513",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "千织",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Chiori.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chiori.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Chiori.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Chiori.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Chiori.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20390,
+      "sha256": "1ce5c65df51088f564104cde4e78c2c37e91bc4992a8a115faf55e8680b6f853",
+      "embeddedWebpBytes": 15174,
+      "embeddedWebpSha256": "2cf0c231a4d72e7cbe0190f5d578bd5e8a9481e6a158eab9d549b0bfaee98022",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "卡维",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kaveh.png",
+        "https://enka.network/ui/UI_AvatarIcon_Kaveh.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Kaveh.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kaveh.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 19778,
+      "sha256": "a649404a5c8df265634dd1eed9e5e1b30ba5eac6e57a8e8c76689c2b084305be",
+      "embeddedWebpBytes": 14714,
+      "embeddedWebpSha256": "d93e07eba5e66621d4db95d8da6d0fede37ecf48d8738ef2d9f6f3ff8d1c1c75",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "卡齐娜",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Kachina.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kachina.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Kachina.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Kachina.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20134,
+      "sha256": "3b0c90c9c30f020bb1d98e56d1f267d243f30a28c112f97777fa416a75e314e3",
+      "embeddedWebpBytes": 14982,
+      "embeddedWebpSha256": "ed490b1e8c5abfc8aa64b74a2a1f95e27933a6ba214c7ebc020362061725b031",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "可莉",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Klee.png",
+        "https://enka.network/ui/UI_AvatarIcon_Klee.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Klee.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Klee.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Klee.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21702,
+      "sha256": "a8abba56a69be37d0f5d8ffa82d08627863c4a9bc5e95f4ee93b0aa69c4df728",
+      "embeddedWebpBytes": 16158,
+      "embeddedWebpSha256": "4afcd8fb84c0bf3e12948fc8f37dd7d34b08605b1abf72b7a222e1c9fb24fb94",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "叶洛亚",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Illuga.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Illuga.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Illuga.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Illuga.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18850,
+      "sha256": "593b90f269e6bc431776119e103c2b0c38ebc9ac11c8cd19595d8997ba692825",
+      "embeddedWebpBytes": 14018,
+      "embeddedWebpSha256": "9cb1c4a89be8df164b08f0ae75c3aa3b98358db442b6aef42543c6375c8be909",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "哥伦比娅",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Columbina.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Columbina.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Columbina.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Columbina.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Columbina.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21710,
+      "sha256": "60e7d778723595c301693c830d2bcd0cf46f75d5743c73ca25e22cab32764885",
+      "embeddedWebpBytes": 16162,
+      "embeddedWebpSha256": "8ca9c444fff9c11eef74c98cc95fa9968eecef11760d2d87567cfdab20de3cc7",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "嘉明",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Gaming.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gaming.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Gaming.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Gaming.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 16926,
+      "sha256": "eb3d704432e10181d7f44b29f7dd81b764331935c039916fa42ec2164a3c29d5",
+      "embeddedWebpBytes": 12576,
+      "embeddedWebpSha256": "5f6b75c5a82de810c6d3134afa1f7a0fa4abdc3548936e028f3c26203b9689cc",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "坎蒂丝",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Candace.png",
+        "https://enka.network/ui/UI_AvatarIcon_Candace.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Candace.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Candace.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 19910,
+      "sha256": "2321c12ea7296fdd8eb5a56a02df387d459c8efc8a45daf7f7d97e2998e947f9",
+      "embeddedWebpBytes": 14814,
+      "embeddedWebpSha256": "ea484d297fca170e3f6b1b0af6a9d738fd472f340d3abf3b5115b83e38dc7338",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "基尼奇",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Kinich.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kinich.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Kinich.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Kinich.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Kinich.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18558,
+      "sha256": "71ca6683c7f022f83904893dff64de654f4a80b7335838246ced63edd02f5f2d",
+      "embeddedWebpBytes": 13800,
+      "embeddedWebpSha256": "4bf4e8eee1a8ef2f7cb68da8df82d458e9cdada2da16663bb663a032a49b4cc0",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "塔利雅",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Dahlia.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dahlia.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Dahlia.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Dahlia.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 17550,
+      "sha256": "45a824b4a89cffdee7163aafc17e707a7e7975bf5fbbdd1cab0b222cc67483a3",
+      "embeddedWebpBytes": 13044,
+      "embeddedWebpSha256": "ea92c1280f5d6fb4ed42241bca49a464195033fb0f86315a22e2a6ab1ea774c3",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "夏沃蕾",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Chevreuse.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chevreuse.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Chevreuse.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Chevreuse.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 19838,
+      "sha256": "465b799f34667ec300f0c7d1baf316744fc9164b110f344dccbc2ea8b9cd9e48",
+      "embeddedWebpBytes": 14758,
+      "embeddedWebpSha256": "e012f7fd7458e602120709999635340f6957f7e8b5f0ec51fa806a91a8ee6a5b",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "夏洛蒂",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Charlotte.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Charlotte.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Charlotte.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Charlotte.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18970,
+      "sha256": "b5b11274c5ef7940ea0f3171f5665fc6595f8052dd17850a694f7dfa5b10cb01",
+      "embeddedWebpBytes": 14108,
+      "embeddedWebpSha256": "9e04ee17d5af0966449fe6a0d78ae3b996db9371fcb6ecf2a59dad2edd70b9b1",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "多莉",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dori.png",
+        "https://enka.network/ui/UI_AvatarIcon_Dori.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Dori.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dori.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20782,
+      "sha256": "e7a968c16e817c53dda4d9b84c599d4f270e089893ad918c5c2c8f6d6c80c9e8",
+      "embeddedWebpBytes": 15468,
+      "embeddedWebpSha256": "0c799b6ecdab03550d0d400da4fb8d0dd350bae1bc35750d2baf21962b364a73",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "夜兰",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yelan.png",
+        "https://enka.network/ui/UI_AvatarIcon_Yelan.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Yelan.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Yelan.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yelan.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 15338,
+      "sha256": "2b2392dd1e110212fad73d0e3aae2311e5aa518fb0382fe9226f1d68e678f3bf",
+      "embeddedWebpBytes": 11384,
+      "embeddedWebpSha256": "508d505c80de4773ba8d3f73f4ad1c0b19066a8dc16ee58386b5ed8e370ad798",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "奈芙尔",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Nefer.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nefer.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Nefer.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Nefer.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Nefer.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 19750,
+      "sha256": "796e9c79d76b54cd8fbb5924d6788edd86f86a4790887a94c26770a5ba83899b",
+      "embeddedWebpBytes": 14694,
+      "embeddedWebpSha256": "06723377351095ba3fe7aeb2a8e713a91feabaa39805453f0f0b69af01dea701",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "奥黛塔",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Odette.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Odette.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Odette.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Odette.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Odette.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21094,
+      "sha256": "13f9e55407e8fcd82b288ecd343f56db217d9c6e080e3a4224114196aa2d9c6b",
+      "embeddedWebpBytes": 15700,
+      "embeddedWebpSha256": "bd2e831a67c86b7377ec16f159f45d36dd02ecce84e24e7aa2a2b2d3cc66c70f",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "妮露",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nilou.png",
+        "https://enka.network/ui/UI_AvatarIcon_Nilou.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Nilou.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Nilou.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nilou.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21366,
+      "sha256": "4b48c1e3d16a846a585ad93beefbd580160310e77ddf57e14ed2516bf5dc0656",
+      "embeddedWebpBytes": 15904,
+      "embeddedWebpSha256": "afaf6fb818eb765d5262e6de5840a9844fa5b0dfbfceb0c59a66115a9ca6ade4",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "娜维娅",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Navia.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Navia.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Navia.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Navia.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Navia.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 24834,
+      "sha256": "ec4e7a441632ba39cb5533d34cd7d9061a9ee15a8a357417b51d406c65ef0036",
+      "embeddedWebpBytes": 18506,
+      "embeddedWebpSha256": "eb666a6b60c5a94e7a065f8f28a742ea72bb78c5e135321700be69d9ee3161c3",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "宵宫",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Yoimiya.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yoimiya.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Yoimiya.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Yoimiya.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Yoimiya.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 24338,
+      "sha256": "286f8682ae99da77801965b27f672e0e538650bc87d7d9ffd428aed30afae498",
+      "embeddedWebpBytes": 18134,
+      "embeddedWebpSha256": "0998b231847ddbc34c5f114ddbe9fc9b7eba5b6951bf3404dba189aefb55ea5e",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "尼可",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Nicole.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nicole.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Nicole.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Nicole.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Nicole.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20394,
+      "sha256": "8c36db16367d9f9a38b07f3dd5bb996439921b08843f51ef61d0f199a78d7e12",
+      "embeddedWebpBytes": 15176,
+      "embeddedWebpSha256": "9dbb047f6c2dd47e48e3df9e2af5bef314fb4412b868f537d20065d8041082da",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "布伦妮",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Prune.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Prune.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Prune.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Prune.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21198,
+      "sha256": "3f2b906a23a7c3aafa2901123f8f428d4ef03dea3a691cc37137d702ffb2df59",
+      "embeddedWebpBytes": 15778,
+      "embeddedWebpSha256": "cc393ea476c50dca8854123de515d3d94087c1c5aa77e3007f5d3bbe66fe5764",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "希格雯",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Sigewinne.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sigewinne.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Sigewinne.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Sigewinne.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Sigewinne.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 22802,
+      "sha256": "e404cc42b1671293a636af719dc39e8b533e4b89e6d1f6094a00b64ab950dbb8",
+      "embeddedWebpBytes": 16982,
+      "embeddedWebpSha256": "9146d57591c662446c69a1894d8b1c76c78fd394b87449f2d57a6904e810414f",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "希诺宁",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Xilonen.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xilonen.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Xilonen.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Xilonen.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Xilonen.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 24758,
+      "sha256": "5812e59c1f22e55b7d1310f6a095a5c716ac032a8a6d8cc350b24f1a020afbbd",
+      "embeddedWebpBytes": 18450,
+      "embeddedWebpSha256": "f22c739449a00b10edcb6dfc364536e778971d384edea578b3285ed3a9e6dd6c",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "恰斯卡",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Chasca.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chasca.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Chasca.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Chasca.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Chasca.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 23118,
+      "sha256": "2a0fe3c826100d63019cd2a50db455cf66e55d93afea9f191f8878d7c25bff20",
+      "embeddedWebpBytes": 17218,
+      "embeddedWebpSha256": "f934aea0d41df520500361ab941259c0a681d3f8328e8a609c4278acafaaab66",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "托马",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tohma.png",
+        "https://enka.network/ui/UI_AvatarIcon_Tohma.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Tohma.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tohma.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 16258,
+      "sha256": "0de7913653825833a82d239fe365eedad6c409d1bf2aa7787c772234edd5293f",
+      "embeddedWebpBytes": 12074,
+      "embeddedWebpSha256": "218e55c3496d54dff9424a25b3ac20e4b2c7341d85bb92a23da2075bd35a7ec1",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "提纳里",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Tighnari.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tighnari.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Tighnari.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Tighnari.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20954,
+      "sha256": "66673ca21d29dcce2cd0807ad02456e37fee597daafeb474446c33407f4e97c5",
+      "embeddedWebpBytes": 15596,
+      "embeddedWebpSha256": "3f70adc7447334af10b89d980d612edbaba49629bd101d08a0be01d54c0c2734",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "早柚",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Sayu.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sayu.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Sayu.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Sayu.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 19006,
+      "sha256": "bd9c6e74662f8868dab7a158b57766be7ed93cf1ddb2d47974dc285b5a25671e",
+      "embeddedWebpBytes": 14136,
+      "embeddedWebpSha256": "da9456501443c249a63252281d84d8fcd4dd24ba27d23d5a2e20e63218584cb0",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "杜林",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Durin.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Durin.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Durin.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Durin.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Durin.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20938,
+      "sha256": "72c6d171832c685c7c5eb5ae6aa67230089b7521b26c302faf019c7e5ecb6df3",
+      "embeddedWebpBytes": 15584,
+      "embeddedWebpSha256": "8bff519cb848a419901f88a7fb6029b479567fc078f4000bc62336a3bdf7232e",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "林尼",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Liney.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liney.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Liney.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Liney.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Liney.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 15962,
+      "sha256": "dd02897bdd5a7e6eccfbc51a80b899c772a8993d3e25c4499ff3bd978ae12bd0",
+      "embeddedWebpBytes": 11852,
+      "embeddedWebpSha256": "ff2caafa2e39c699557da7eabdd1b62543053376e4f1e61996750a1106ccf676",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "枫原万叶",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kazuha.png",
+        "https://enka.network/ui/UI_AvatarIcon_Kazuha.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Kazuha.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Kazuha.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kazuha.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18890,
+      "sha256": "0d67bf80cc4085bbb23878a97b91ab3734dc20b6aa536f13dff7ca832795e281",
+      "embeddedWebpBytes": 14048,
+      "embeddedWebpSha256": "180de4584bd82e92f4f917593af9efcae18c09bc4766a7c7ecb94ad056a2419e",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "柯莱",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Collei.png",
+        "https://enka.network/ui/UI_AvatarIcon_Collei.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Collei.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Collei.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18078,
+      "sha256": "1ff12131ced4529b3a303e00f0ea4e9ddf8301febc5acc0985b622a3962e94c3",
+      "embeddedWebpBytes": 13440,
+      "embeddedWebpSha256": "8d474f2fd0d002c0b380cbd6db6170731636d0dcdd5beaa044288e8a339802bf",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "桑多涅",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_MarionetteNew.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_MarionetteNew.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Sandrone.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_MarionetteNew.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_MarionetteNew.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20006,
+      "sha256": "2240f364a5904c25683936194add14a04dc9e6d4046cba53c75b3dd145ee0ef0",
+      "embeddedWebpBytes": 14884,
+      "embeddedWebpSha256": "acf14cc8fb72f5f1e24cc044033d2f35edc970d64f247944ceb254de63d61920",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "梦见月瑞希",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Mizuki.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mizuki.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Mizuki.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Mizuki.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 24182,
+      "sha256": "24faeacae8795edfb3e616ca1d670c48608cab9768012e7fa6d79c608249f58c",
+      "embeddedWebpBytes": 18016,
+      "embeddedWebpSha256": "b0e6493854ce9d54275a3a1b459e907d90b788a58dcb63bc116fa6e65e17755a",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "欧洛伦",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Olorun.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Olorun.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Olorun.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Olorun.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21998,
+      "sha256": "b1c62ac14a0b7c7faa1a7beeed7183f4a75d912951ddfb47a8db83196651aea7",
+      "embeddedWebpBytes": 16380,
+      "embeddedWebpSha256": "28c9f3c3eba19047b2f301da55a2b8a37332233fbd4803253b1aea31093ece2c",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "沃雅妮莎",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Vodyanitsa.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Vodyanitsa.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Vodyanitsa.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Vodyanitsa.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Vodyanitsa.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 22690,
+      "sha256": "d76aa3f7322ecb9a6eb0cdb76361affa3b322faf91fb0fe88a121706abac0c22",
+      "embeddedWebpBytes": 16898,
+      "embeddedWebpSha256": "2c1770cd2142b222021ac99bd13dbc58b1c86fb4a12043ebe5473a5977b1596f",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "法尔伽",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Varka.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Varka.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Varka.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Varka.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Varka.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21698,
+      "sha256": "701af490229217bf2a8d46841c963a7d2adb807b6606da869b334c416b212e32",
+      "embeddedWebpBytes": 16154,
+      "embeddedWebpSha256": "ecaeb9e65c574885ea15001a49f29512ddf66e1f3ed45a563a148e6becac9225",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "洛恩",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Lohen.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lohen.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Lohen.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Lohen.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Lohen.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21218,
+      "sha256": "14c415a43d11c391e37602c83574bb67047e292f793d535c920f8be5e6f84000",
+      "embeddedWebpBytes": 15794,
+      "embeddedWebpSha256": "d360ced4a54f63bd2a63339b0eb22b15ae390971349d1a15dd26f13489286cd3",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "流浪者",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wanderer.png",
+        "https://enka.network/ui/UI_AvatarIcon_Wanderer.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Wanderer.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Wanderer.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wanderer.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 19626,
+      "sha256": "e559389f1f118bb6e35501bbc4f8b74d9eb06fd56368df991f027b49e80febdf",
+      "embeddedWebpBytes": 14600,
+      "embeddedWebpSha256": "21fed6b07f3b866941e63f9b0ce518e025f786bb6e0da28ce9ec68355fe597f4",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "温迪",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Venti.png",
+        "https://enka.network/ui/UI_AvatarIcon_Venti.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Venti.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Venti.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Venti.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18266,
+      "sha256": "1385b8f435a98fcb59321414458a219ce5383ca71a6d9de3c9dcbcc9552b60d0",
+      "embeddedWebpBytes": 13580,
+      "embeddedWebpSha256": "0bf5da7581de963d289ac303e16a30b41d0f1ef68298e40de148d8dc95b14bea",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "烟绯",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
+        "https://enka.network/ui/UI_AvatarIcon_Feiyan.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Feiyan.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 23030,
+      "sha256": "bea8aefe2e5e998548099f435ef363d7f73937c57c0fc10d1f09b2f08ef14b25",
+      "embeddedWebpBytes": 17154,
+      "embeddedWebpSha256": "a3d236d6fdffafbd52f96c127848734638b14fea2c29937f2a2735e67f19e6ea",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "爱可菲",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Escoffier.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Escoffier.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Escoffier.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Escoffier.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Escoffier.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 22430,
+      "sha256": "46a920c74c17b06244b0f3bacecba654f7e6007c9b9cf6813bf3c0b5c89f1cce",
+      "embeddedWebpBytes": 16704,
+      "embeddedWebpSha256": "e9dc72c51c8a606cda1417058db7fbde4f89f7ca67f1a2b959dab658359ae6f2",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "爱诺",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Aino.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Aino.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Aino.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Aino.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 22762,
+      "sha256": "e9797b123f255c5ae409c556d1b90235686ed8114bf0061b7bd55791fdf70205",
+      "embeddedWebpBytes": 16952,
+      "embeddedWebpSha256": "c29ab52ea1f23ba4d75f73962cccfda95ca5f91b5a21db5c9717d326e9e34919",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "玛拉妮",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Mualani.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mualani.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Mualani.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Mualani.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Mualani.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 17910,
+      "sha256": "ac874cdb47012946bfc59b088fd298d896278cdcc6b46a39138fc86d2cfaf8cb",
+      "embeddedWebpBytes": 13314,
+      "embeddedWebpSha256": "ddd85c9fe940f8e536991a41344bda64046bab007f1e7ef7271fc7f30dcbda46",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "玛薇卡",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Mavuika.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mavuika.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Mavuika.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Mavuika.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Mavuika.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 23450,
+      "sha256": "2d2335a20bb45563ae8f48e92c1eb4ab8939a691a204c9f8099e58b630fa68f3",
+      "embeddedWebpBytes": 17468,
+      "embeddedWebpSha256": "38f2fba07fc93a4e352851bd595da8f33a28583b7f296e6178d17331045476b8",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "珊瑚宫心海",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Kokomi.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kokomi.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Kokomi.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Kokomi.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Kokomi.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18374,
+      "sha256": "2db9f2b2cb6ecfffd3da4153e929ce0e124a358bb13d1932e111ee532b818a72",
+      "embeddedWebpBytes": 13662,
+      "embeddedWebpSha256": "d8609142cb397fd4561e9ca3fc600689e7b73143a1dbad4ce709d9ea0b1a4f1a",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "珐露珊",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Faruzan.png",
+        "https://enka.network/ui/UI_AvatarIcon_Faruzan.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Faruzan.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Faruzan.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21498,
+      "sha256": "3fe97061d0670af5c34da9e0d70de70cad194d0fba1093fbf2b703ca6366d3b4",
+      "embeddedWebpBytes": 16004,
+      "embeddedWebpSha256": "93910048c2c7fe8ddbbe4fe3c81171bd4db116fab1e49b475a071734bacac721",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "班尼特",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
+        "https://enka.network/ui/UI_AvatarIcon_Bennett.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Bennett.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 17230,
+      "sha256": "9d43c741698438b4d4b89495cc6a5b67999fb21ace0ac4f29a33e8f9f6a7fc93",
+      "embeddedWebpBytes": 12802,
+      "embeddedWebpSha256": "a8979bcf692b59b278cdca370e6f356d1aa93b0bb7ef8ca218b9f92d6dc5618a",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "琳妮特",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Linette.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Linette.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Linette.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Linette.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 17502,
+      "sha256": "d1220c8881527ece122da51add8abc769eb1ee596b5ab60b7714df58fa8f1b35",
+      "embeddedWebpBytes": 13008,
+      "embeddedWebpSha256": "e9aafb7ed2ec9bc6b4b81672285016c4d67d30ea1d3a87464012159b016fc03e",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "琴",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qin.png",
+        "https://enka.network/ui/UI_AvatarIcon_Qin.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Qin.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qin.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 15914,
+      "sha256": "59b68da511bb15ae4915da06ff099f472b2f1360df1c50b5b7e8a207333409a3",
+      "embeddedWebpBytes": 11816,
+      "embeddedWebpSha256": "fb7ddd397f08d13c9daa8d8a89180a53be523a4046e358ed25a9ab11f0d80460",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "瑶瑶",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yaoyao.png",
+        "https://enka.network/ui/UI_AvatarIcon_Yaoyao.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Yaoyao.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yaoyao.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18778,
+      "sha256": "6033e1d0d31578fcd095c4e8d2056196d0fe893cd0453895371278c045b9f910",
+      "embeddedWebpBytes": 13964,
+      "embeddedWebpSha256": "4e4c5353cc023e3d1ea4169b7905cf61e10c2d083a6fe68704bdab1e16ce6d1d",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "瓦雷莎",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Varesa.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Varesa.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Varesa.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Varesa.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Varesa.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 25758,
+      "sha256": "06db3adf457d1b01de283c9c87de3720d525dfd35b7d2064954483ce5a0fed14",
+      "embeddedWebpBytes": 19198,
+      "embeddedWebpSha256": "282f606ccb89227ce564e95ee3ff26b951acf603a5a9dcd26fc7f08efb995a89",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "甘雨",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ganyu.png",
+        "https://enka.network/ui/UI_AvatarIcon_Ganyu.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Ganyu.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Ganyu.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ganyu.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 17922,
+      "sha256": "4399d90b984c68828a3e9075cde6fcccc516b30df09fc9501e554099bdb5c309",
+      "embeddedWebpBytes": 13322,
+      "embeddedWebpSha256": "e3414f92693d9c044eee027047dea512c3670cef5432c9403595ce8bb10fd0ab",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "申鹤",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shenhe.png",
+        "https://enka.network/ui/UI_AvatarIcon_Shenhe.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Shenhe.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Shenhe.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shenhe.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 17306,
+      "sha256": "c6429651938bebbeef01fd1853e2b6759ae992c56768f0d241af90d528493416",
+      "embeddedWebpBytes": 12860,
+      "embeddedWebpSha256": "0dd23495a458decc7527ab48286646b57e58bddeb885720f65a0dd6e85862c77",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "白术",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Baizhuer.png",
+        "https://enka.network/ui/UI_AvatarIcon_Baizhuer.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Baizhuer.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Baizhuer.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Baizhuer.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18606,
+      "sha256": "ab01957c52d06cdf58621ceb2c9c0a9bfa419961ce6ab40e6ed46047fb8d22cc",
+      "embeddedWebpBytes": 13834,
+      "embeddedWebpSha256": "6c0ae71275af5bb5d394f9f2ef275f7a2f2bf8207c98b20821301819a35b4980",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "砂糖",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sucrose.png",
+        "https://enka.network/ui/UI_AvatarIcon_Sucrose.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Sucrose.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sucrose.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20118,
+      "sha256": "6b568868aa95ada5e6d9020f7f52ba18ee0a8b5ae59b7d43d77778ff231339d9",
+      "embeddedWebpBytes": 14968,
+      "embeddedWebpSha256": "35b01877c222813ca1520bae250ebd9420e1498adfad1ad04c4f887ffd620678",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "神里绫人",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayato.png",
+        "https://enka.network/ui/UI_AvatarIcon_Ayato.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Ayato.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Ayato.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayato.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18730,
+      "sha256": "d0e853e4235f0856b0bf9e57af39d8b501ae5aaa923c14f9eee775691af82af7",
+      "embeddedWebpBytes": 13928,
+      "embeddedWebpSha256": "f7d3f1b479bc1291db1502c66a1f93a7ba3f89cab1ad73790a58efdc68853fe8",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "神里绫华",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayaka.png",
+        "https://enka.network/ui/UI_AvatarIcon_Ayaka.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Ayaka.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Ayaka.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayaka.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 15814,
+      "sha256": "58c4340eb629154e181897e3d3401bab72c83e51f9e3c477eafed5094d1db1ec",
+      "embeddedWebpBytes": 11740,
+      "embeddedWebpSha256": "fc1644f1ab2847da2685af77ea2f869b65a5095a5278e889a2c4b1323b54a53e",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "米卡",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mika.png",
+        "https://enka.network/ui/UI_AvatarIcon_Mika.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Mika.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mika.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18598,
+      "sha256": "1888bd0f314e2f73375b7ae1f8197ef70165ad6ff3d60d4af64d4a5b5522d977",
+      "embeddedWebpBytes": 13830,
+      "embeddedWebpSha256": "cd8d089b5e9e8bd4c54d2020a3c0c32b1f9e863aaaf3add6b4d1a9987fe2c548",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "纳西妲",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nahida.png",
+        "https://enka.network/ui/UI_AvatarIcon_Nahida.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Nahida.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Nahida.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nahida.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 23630,
+      "sha256": "6e6b2f739c3f1e527a94e4e95b2c6a8a082c2c94a2cb83c83e012b9f80177b0b",
+      "embeddedWebpBytes": 17604,
+      "embeddedWebpSha256": "2ddb54a73c845a6afd84e56075283df4b464f6290086d1fb69d28b679bec960c",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "绮良良",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Momoka.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Momoka.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Momoka.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Momoka.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21314,
+      "sha256": "fe57ec3bbbd2ed8fbe254e595622916e73710552f44916f9c6958336b31874bb",
+      "embeddedWebpBytes": 15866,
+      "embeddedWebpSha256": "6411cab3fa3dd18a59b6f7481c4ad2acdac6e3461540333728d87c94507cb64c",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "罗莎莉亚",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Rosaria.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Rosaria.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Rosaria.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Rosaria.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 17326,
+      "sha256": "83b32907b4729e5b1e9d63183bd561e66844c7463e7179312de77cd0ba24d3e7",
+      "embeddedWebpBytes": 12874,
+      "embeddedWebpSha256": "d3d2ac02d6585dc17931f104edf3feb1dcf1b4665ab584483a4a69e906dd08ef",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "胡桃",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Hutao.png",
+        "https://enka.network/ui/UI_AvatarIcon_Hutao.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Hutao.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Hutao.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Hutao.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18898,
+      "sha256": "cfa53cff7414599436c1931679157f4c4978f8adb476740ccf1c1d9a0d8ac6b7",
+      "embeddedWebpBytes": 14054,
+      "embeddedWebpSha256": "1735a5fcda0cbf1ab10f673ae9f3a63560d6af68cea0614cb30ff0d1380696e6",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "艾尔海森",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Alhatham.png",
+        "https://enka.network/ui/UI_AvatarIcon_Alhatham.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Alhatham.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Alhatham.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Alhatham.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 17786,
+      "sha256": "3276c0fc28e1ce5c811af5c11f212c85ffc1274917f40b4dbd0e11cecca7ab8e",
+      "embeddedWebpBytes": 13220,
+      "embeddedWebpSha256": "0dcae8ef97e5d2c0b5765c3e6c2ae2515c4d319349dd19fec64bdb8fd49eae97",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "艾梅莉埃",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Emilie.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Emilie.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Emilie.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Emilie.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Emilie.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 22358,
+      "sha256": "2bd8bad2fb3d582d0996da12d3700095b46f4a5fcc97665ee552b68e3fdc9bf1",
+      "embeddedWebpBytes": 16648,
+      "embeddedWebpSha256": "72e312b05ebbc577b364341fd8b2dc19b318efb818bec6a5022c72aaa26d9e0a",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "芙宁娜",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Furina.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Furina.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Furina.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Furina.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Furina.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 22942,
+      "sha256": "32975a9d966e053f85d37bd3854d94a45aa767de72437abca301fbad517676b2",
+      "embeddedWebpBytes": 17086,
+      "embeddedWebpSha256": "9da678e85f809cebbb96f48df86b5fca83fb478eea1154e41ef887113b5423ca",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "芭芭拉",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
+        "https://enka.network/ui/UI_AvatarIcon_Barbara.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Barbara.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 25862,
+      "sha256": "7fea07b10bc0ec530e378482d0d5dc941f92df2e1118967145b131d4b7027c67",
+      "embeddedWebpBytes": 19276,
+      "embeddedWebpSha256": "f1a53659bde333ec66ce342844757db586e0ede2eb6ccf3c595b7f7f03eaa1dd",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "茜特菈莉",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Citlali.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Citlali.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Citlali.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Citlali.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Citlali.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20898,
+      "sha256": "c2e16eb4f0b00aa12f753ca2e13c3614398ad8598a555b95a8a2d71a305ddac2",
+      "embeddedWebpBytes": 15554,
+      "embeddedWebpSha256": "bc9a43d4264b0b4bcd041694a72d63b1c8dd5bbde1e155666d653dc3dfc50668",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "荒泷一斗",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Itto.png",
+        "https://enka.network/ui/UI_AvatarIcon_Itto.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Itto.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Itto.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Itto.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21354,
+      "sha256": "75da6cebf7bdf7d755cacfb98e70e1832c8fb6c71ad6dc58644a34222b2500d5",
+      "embeddedWebpBytes": 15896,
+      "embeddedWebpSha256": "077a1887f75b057ffda5d8e60f10aa15a14123c9008eaac1fcf51458f0d85f07",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "莉奈娅",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Linnea.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Linnea.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Linnea.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Linnea.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Linnea.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 24518,
+      "sha256": "cef5fa954d74d8857b8bb5d2c2f4f2339a261b142d151e9213e515d27e27b584",
+      "embeddedWebpBytes": 18270,
+      "embeddedWebpSha256": "c76cafdf9e01d4da0d0b70ca7488081cc8eb5e5c0bd29ae205c6d3ca45b22bf5",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "莫娜",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Mona.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mona.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Mona.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Mona.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 26930,
+      "sha256": "dec8207ff64fb8cf020cc376ba33592ab144ff2063817571dddb75481d85834c",
+      "embeddedWebpBytes": 20078,
+      "embeddedWebpSha256": "43917d110a2ff18ead195f40ba65543d7382939df167e20cb24b4baa4cb93bbf",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "莱依拉",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Layla.png",
+        "https://enka.network/ui/UI_AvatarIcon_Layla.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Layla.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Layla.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 17726,
+      "sha256": "7a14b26173dc64498208f349cae1807a7da2ec43c63cc6df305d9e3ab67b0758",
+      "embeddedWebpBytes": 13176,
+      "embeddedWebpSha256": "ff9824a2d35633e8b3f8bceff710a979f1bb62286315e3602be0f5ef581f9758",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "莱欧斯利",
+      "urls": [
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Wriothesley.webp",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wriothesley.png",
+        "https://enka.network/ui/UI_AvatarIcon_Wriothesley.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Wriothesley.svg",
+      "source": "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Wriothesley.webp",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 16686,
+      "sha256": "9ef569e1ed494d5f584d0b2eb96505fee0dfd5f24b07ca8dc57b5f738d78b6cb",
+      "embeddedWebpBytes": 12394,
+      "embeddedWebpSha256": "301a256a3b0fc20b0e749c08bd32e42aaa68075d458cdf0044a617f5a5c4060e",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "菈乌玛",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Lauma.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lauma.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Lauma.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Lauma.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Lauma.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21042,
+      "sha256": "37073dec018f0588a043a0dc8b597a11233fd291486dabe0e9496887d6af1ed8",
+      "embeddedWebpBytes": 15662,
+      "embeddedWebpSha256": "c168173793689bdc927ba03db8e5b9c67ab5f26dde72a88ea5039cf324f867ae",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "菲林斯",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Flins.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Flins.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Flins.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Flins.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Flins.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18914,
+      "sha256": "728a2c9025aad358048005b9fb1ace7411765245c3d3e5156f09ca3462e04631",
+      "embeddedWebpBytes": 14066,
+      "embeddedWebpSha256": "0e3198d873ebf9f219cf3bcffabe9c44c7e7d151e34bc32690bd1f7a1b879407",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "菲米尼",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Freminet.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Freminet.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Freminet.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Freminet.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 19406,
+      "sha256": "d8c68b5cac9cd6dea4c5d1ecef7a726fc2fe35a4ee191e6c5968f05befb70268",
+      "embeddedWebpBytes": 14436,
+      "embeddedWebpSha256": "8e7b3b63a3c5450906cef2d2a5464728dd2ddc4a0380e16ae4bb9e0b2127771a",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "菲谢尔",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Fischl.png",
+        "https://enka.network/ui/UI_AvatarIcon_Fischl.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Fischl.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Fischl.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 19382,
+      "sha256": "fb75643ff43356a16974b8007f469519f8a6fa40fad8b5b71a2efed8b21dec73",
+      "embeddedWebpBytes": 14416,
+      "embeddedWebpSha256": "1549da9e4b4bb74a25b8553a1f3710de592694776d245ef0ce6dd81580ef70de",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "蓝砚",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Lanyan.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lanyan.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Lanyan.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Lanyan.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 19634,
+      "sha256": "974b065772ee854cf71fda6d6e4011a26d640efb92b1a45a3e4f937365549c1d",
+      "embeddedWebpBytes": 14606,
+      "embeddedWebpSha256": "0d7750186b37734b2f8df74a371503b5b736962921e52e1be879eae59e3556ef",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "薇斯纳",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Vesna.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Vesna.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Vesna.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Vesna.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Vesna.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21334,
+      "sha256": "15d651bb33b89c0302f9c90809b1ee54c7198ed1b36f720f8ee73e15173e3cfb",
+      "embeddedWebpBytes": 15882,
+      "embeddedWebpSha256": "6ff74ef2a34d435c5ecdfb8acf93ab23a2aab87168c102ae2e7005e62e9fa04f",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "行秋",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
+        "https://enka.network/ui/UI_AvatarIcon_Xingqiu.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Xingqiu.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 14946,
+      "sha256": "52b7fdf7df1d7f1c1c8a161c7fd8d3d5404fa259edf7387fd9d31394abba1440",
+      "embeddedWebpBytes": 11090,
+      "embeddedWebpSha256": "5897ed46de53d273efe902edb30cd62de5a147838dc6d623945c517f81d5393f",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "诺艾尔",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
+        "https://enka.network/ui/UI_AvatarIcon_Noel.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Noel.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20086,
+      "sha256": "ecbecc2390c0ded1cf2030212f1f7f3b5ead8c9c16a8f1f24538a09cd02bafba",
+      "embeddedWebpBytes": 14946,
+      "embeddedWebpSha256": "2ef56c861c2d265b3f776b4374f2ee18f6a12c2cad3c39a5a6e5222d4726f9a2",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "赛索斯",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Sethos.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sethos.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Sethos.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Sethos.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18814,
+      "sha256": "1950611feb899aa65b0fb048993b1d9a898224dd9e2e4c6222eefd8b768eba93",
+      "embeddedWebpBytes": 13990,
+      "embeddedWebpSha256": "994c90f94f006f05d191ad1afddf5c7835783f893798a43100a201fb4923d073",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "赛诺",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Cyno.png",
+        "https://enka.network/ui/UI_AvatarIcon_Cyno.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Cyno.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Cyno.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Cyno.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18130,
+      "sha256": "b34ec5aa34c96fb0fa50762ce0d2f84805cf341668408533bc6e715254d84b38",
+      "embeddedWebpBytes": 13478,
+      "embeddedWebpSha256": "daa8f5fb4036efe2f6e9b2c066c8d75995bae9d0bfa4fd0acde0f3c710970536",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "辛焱",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Xinyan.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Xinyan.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Xinyan.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18278,
+      "sha256": "4fc268f29d3016086a91b26178f1a9c3ec9e9979aa0020dc337211e88070e081",
+      "embeddedWebpBytes": 13588,
+      "embeddedWebpSha256": "487b712f5385e76bb1e641b080db33b517fafbc23ba59e101fb7c344da7f6ee1",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "达达利亚",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Tartaglia.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tartaglia.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Tartaglia.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Tartaglia.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Tartaglia.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21262,
+      "sha256": "d6a2c3cd4696c82dd6a090042d95e19ffdca518e88b7658cca0436bc5f8da4e1",
+      "embeddedWebpBytes": 15828,
+      "embeddedWebpSha256": "1d7a29a7647f22c71b54c5187c1a68d3b46f33301493e20870174e52ff19d5b4",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "迪卢克",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diluc.png",
+        "https://enka.network/ui/UI_AvatarIcon_Diluc.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Diluc.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diluc.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18094,
+      "sha256": "c566b6067736c54d7b8ef71b6614fc2621c80ccfcbff42ba67491aea9081d8b7",
+      "embeddedWebpBytes": 13450,
+      "embeddedWebpSha256": "dad68c0276273f6d6dc746aff2d5ee07b1d5b3ae07fb14b8f9316b4b0ddff7b6",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "迪奥娜",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
+        "https://enka.network/ui/UI_AvatarIcon_Diona.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Diona.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18294,
+      "sha256": "0b8660dbd7c1466fa15f7d3b6fbfcd21dcb0ccc7e8e2cc082db6c2716963dfcf",
+      "embeddedWebpBytes": 13602,
+      "embeddedWebpSha256": "855f5044f7ee28d9392e880337448b1621e2a0d85c606c505fec55c6f2ddb7c5",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "迪希雅",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dehya.png",
+        "https://enka.network/ui/UI_AvatarIcon_Dehya.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Dehya.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dehya.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 19314,
+      "sha256": "fec8a797b693d3aac1fcfdc2c81bcb96a2613b5838afc378596c845f5bf03592",
+      "embeddedWebpBytes": 14366,
+      "embeddedWebpSha256": "95c8e937a261f820633c6b75f366517e3b24ee8cd7f9e677f836c97c319e1fd8",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "那维莱特",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Neuvillette.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Neuvillette.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Neuvillette.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Neuvillette.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Neuvillette.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20370,
+      "sha256": "1b26144a1543fd381af36f34c986c5517110596e8396997fa64b3e921766381c",
+      "embeddedWebpBytes": 15158,
+      "embeddedWebpSha256": "2107e662aab30c50b3d5adcfa6e4b6a6184d0b1426ea6e33f2c31161cf64b0c2",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "重云",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chongyun.png",
+        "https://enka.network/ui/UI_AvatarIcon_Chongyun.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Chongyun.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chongyun.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 17782,
+      "sha256": "d459a47106fe63df7ab97eaeb237b2b6811e7a874c7ce697ffc80b52ec6d385a",
+      "embeddedWebpBytes": 13218,
+      "embeddedWebpSha256": "cd650d45cfe9c0430eb009fad76c0fc7f39549d24614dd1cb54b945727580f44",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "钟离",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zhongli.png",
+        "https://enka.network/ui/UI_AvatarIcon_Zhongli.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Zhongli.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Zhongli.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zhongli.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 16242,
+      "sha256": "2ab01345ced36366928c2426bf06e9bebf8fc6482ef5c80b464017e82d576795",
+      "embeddedWebpBytes": 12062,
+      "embeddedWebpSha256": "6465953f7f5d0967b105f4509d8e69e206502be3506c284691a2138e5999f6be",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "闲云",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Liuyun.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Liuyun.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Liuyun.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Liuyun.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Liuyun.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18134,
+      "sha256": "627fe5648215215bb428a6aeaa26a02bca15f164f988136dd98a6510419dbe7a",
+      "embeddedWebpBytes": 13482,
+      "embeddedWebpSha256": "0b0152f15851c9a5a53043acb1bbb4383545f941d2809f00dc7ae81311c92a12",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "阿罗夏",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Alyosha.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Alyosha.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Alyosha.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Alyosha.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20518,
+      "sha256": "495b014a6918717b32c1a16a091b1612ea7d01a4e438758ae03bd21a192421e4",
+      "embeddedWebpBytes": 15270,
+      "embeddedWebpSha256": "bb47c392a3ebf02f5e6681c480ab53a4f4a62238a80bdc613494d475d2bdeac7",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "阿蕾奇诺",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Arlecchino.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Arlecchino.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Arlecchino.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Arlecchino.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Arlecchino.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18678,
+      "sha256": "87711c248c11e5f4e03aedc4c0a086d6772927a8f69a7badc7cbe2228d0b1228",
+      "embeddedWebpBytes": 13888,
+      "embeddedWebpSha256": "d61c80cf3f3374ab3f32d3d2b12895c93989ba07e3fc0a821f42bdc5ff254342",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "阿贝多",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
+        "https://enka.network/ui/UI_AvatarIcon_Albedo.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Albedo.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Albedo.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18850,
+      "sha256": "9fff24e05f62305a3b766a7b2c88fb09ac3e4b3b1577a9b8ce735fa9c57a7433",
+      "embeddedWebpBytes": 14018,
+      "embeddedWebpSha256": "06af91efc5be91fcf1b0e4c901a0847e53bf616775d619f82d4f137cfaa55174",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "雅珂达",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Jahoda.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Jahoda.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Jahoda.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Jahoda.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21946,
+      "sha256": "ee57004a2e1d39bef8ad052112c5ad809b758cdf2af963d2f61c900b17a955f4",
+      "embeddedWebpBytes": 16340,
+      "embeddedWebpSha256": "f7ad11a02c1988b7e5571ab0f94946ecd37e8e02969ce4f02b529f0d55f8312e",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "雷泽",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Razor.png",
+        "https://enka.network/ui/UI_AvatarIcon_Razor.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Razor.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Razor.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 15878,
+      "sha256": "5571933c4afec29a0b91aa778ff363f802dff2cc8d99307b8458adc9c7e55f99",
+      "embeddedWebpBytes": 11788,
+      "embeddedWebpSha256": "e6912b96695bdc10bdb447b42912d93f0258639a2da7b374b19c17d0637cc063",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "雷电将军",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Shougun.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shougun.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Shougun.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Shougun.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Shougun.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20046,
+      "sha256": "80e0277b13db035f670f38ea05c1609d18213714f3337a62dea080a5ecced8b0",
+      "embeddedWebpBytes": 14916,
+      "embeddedWebpSha256": "c7e464bf260474ebf3de83babaedb53fcdfff8294fcdcd3ad59c9d4126316d3c",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "香菱",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiangling.png",
+        "https://enka.network/ui/UI_AvatarIcon_Xiangling.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Xiangling.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiangling.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 16062,
+      "sha256": "455ed1e289562fc6c5703dab70f7dc266ffe9e16566c283c9f377cd1bf57681a",
+      "embeddedWebpBytes": 11926,
+      "embeddedWebpSha256": "342c88b44b67b40f967d9e66b0348d1fc3bf279d1de353881fc2ba32f527aa6b",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "魈",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiao.png",
+        "https://enka.network/ui/UI_AvatarIcon_Xiao.png",
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/AvatarIcon/UI_AvatarIcon_Xiao.webp"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Xiao.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiao.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 19474,
+      "sha256": "282fc56c5e8cea04d01a2b452c2c72175e1df1f5c5ef2e6c62659de75a191ed0",
+      "embeddedWebpBytes": 14486,
+      "embeddedWebpSha256": "1eeb8b91aeeb973278a6626e75265dd55d3dee6726c6efb074c7acd80185a766",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "鹿野院平藏",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Heizo.png",
+        "https://enka.network/ui/UI_AvatarIcon_Heizo.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Heizo.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Heizo.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 15902,
+      "sha256": "743d490fbd7f83ff691b621b21b83aa2c98defec054b5dd52376053ab9a59be2",
+      "embeddedWebpBytes": 11806,
+      "embeddedWebpSha256": "0c8d04d0aedd303ea736b721f62a812df7c676b8e625644d892f7865d826f51c",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "冰",
+      "urls": [
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/cryo.webp",
+        "https://static.wikia.nocookie.net/gensin-impact/images/8/88/Element_Cryo.png"
+      ],
+      "type": "elements",
+      "path": "assets/elements/cryo.svg",
+      "source": "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/cryo.webp",
+      "originalSize": [
+        60,
+        60
+      ],
+      "size": [
+        60,
+        60
+      ],
+      "bytes": 976,
+      "sha256": "e87d1de237f4880dfc45bcac8035ebdc533f853e7f447e51d165dce2b129ecaf",
+      "embeddedWebpBytes": 618,
+      "embeddedWebpSha256": "7fe6212d632d2e644e3a86b36a73e4c6bd43613904673799bbb0502c6487e5f1",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "岩",
+      "urls": [
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/geo.webp",
+        "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Element_Geo.png"
+      ],
+      "type": "elements",
+      "path": "assets/elements/geo.svg",
+      "source": "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/geo.webp",
+      "originalSize": [
+        60,
+        60
+      ],
+      "size": [
+        60,
+        60
+      ],
+      "bytes": 952,
+      "sha256": "d891bde6ab63850ee96415366338b593bd77e5778e5c0fb655112af7ad9a1e61",
+      "embeddedWebpBytes": 598,
+      "embeddedWebpSha256": "c0a3bb65905c723c24a2f0cf54dd250254d899b49c7b98819cacdb595884558d",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "水",
+      "urls": [
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/hydro.webp",
+        "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Element_Hydro.png"
+      ],
+      "type": "elements",
+      "path": "assets/elements/hydro.svg",
+      "source": "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/hydro.webp",
+      "originalSize": [
+        60,
+        60
+      ],
+      "size": [
+        60,
+        60
+      ],
+      "bytes": 1000,
+      "sha256": "cbecedd263809c70319a4745020db962faa9227f12642566eabe1fd9b5e27497",
+      "embeddedWebpBytes": 636,
+      "embeddedWebpSha256": "c76479521d76f85703859c228fdd85c7630f65f308bf965648c24e8fbb6dd92f",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "火",
+      "urls": [
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/pyro.webp",
+        "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Element_Pyro.png"
+      ],
+      "type": "elements",
+      "path": "assets/elements/pyro.svg",
+      "source": "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/pyro.webp",
+      "originalSize": [
+        60,
+        60
+      ],
+      "size": [
+        60,
+        60
+      ],
+      "bytes": 980,
+      "sha256": "12f35fcf6936a9e1a054926d5ca2e7eec928ed0570c78ab05cf9c4df65339ec5",
+      "embeddedWebpBytes": 620,
+      "embeddedWebpSha256": "1a15d70641d211009d115290508f9bfedecc3f98b857da1c12809c024e1ae2dc",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "草",
+      "urls": [
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/dendro.webp",
+        "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Element_Dendro.png"
+      ],
+      "type": "elements",
+      "path": "assets/elements/dendro.svg",
+      "source": "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/dendro.webp",
+      "originalSize": [
+        60,
+        60
+      ],
+      "size": [
+        60,
+        60
+      ],
+      "bytes": 928,
+      "sha256": "057b1ffb8e0073c37514d0844f0aa66f037a6ab080de155e1df49586b9a8562c",
+      "embeddedWebpBytes": 582,
+      "embeddedWebpSha256": "d8a6be9dd81865c24732fcb7c960477d022394a0c8d76435426a0d878b6398f5",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "雷",
+      "urls": [
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/electro.webp",
+        "https://static.wikia.nocookie.net/gensin-impact/images/7/73/Element_Electro.png"
+      ],
+      "type": "elements",
+      "path": "assets/elements/electro.svg",
+      "source": "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/electro.webp",
+      "originalSize": [
+        60,
+        60
+      ],
+      "size": [
+        60,
+        60
+      ],
+      "bytes": 888,
+      "sha256": "27d092ba0b71e60003a2bbb51a32b42eda56a3a38a00f7f67c93487a5be2f521",
+      "embeddedWebpBytes": 550,
+      "embeddedWebpSha256": "9277ec902946d8d4d7acba91d558757a575e18c25cc1097358c17aa98b49ed68",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "风",
+      "urls": [
+        "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/anemo.webp",
+        "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Element_Anemo.png"
+      ],
+      "type": "elements",
+      "path": "assets/elements/anemo.svg",
+      "source": "https://raw.githubusercontent.com/FylzX/genshinpull/main/public/elements/anemo.webp",
+      "originalSize": [
+        60,
+        60
+      ],
+      "size": [
+        60,
+        60
+      ],
+      "bytes": 1008,
+      "sha256": "72944d828e84298eed65bc2ab5b22574dcef06313b62b449a1a1e10932c2d98e",
+      "embeddedWebpBytes": 640,
+      "embeddedWebpSha256": "5a33fa5e8bb55bbc5ec1b79a0872b84206180faf757388678bc44f237169e377",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "以理服人",
+      "urls": [
+        "https://enka.network/ui/UI_EquipIcon_Claymore_Reasoning.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Reasoning.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Claymore_Reasoning.svg",
+      "source": "https://enka.network/ui/UI_EquipIcon_Claymore_Reasoning.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 10862,
+      "sha256": "cfdaec386af42e2a472823d13bc2dc9b7ea3f57398ac911dc67c779b0d2d310a",
+      "embeddedWebpBytes": 8028,
+      "embeddedWebpSha256": "05960224205cbf075f74c2b079f1136b4bb82b0c032b5585ec1481eae8132e5b",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "冷刃",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Steel.png",
+        "https://enka.network/ui/UI_EquipIcon_Sword_Steel.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Sword_Steel.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Steel.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 10174,
+      "sha256": "06e0c511eff21fb14834d35792ab36a2a88e7124d713cf932393486d80e9a3ae",
+      "embeddedWebpBytes": 7512,
+      "embeddedWebpSha256": "70d1883975b3a52739d3abbc9da6dba5536e159b574ed03156de560c852c580a",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "匣里灭辰",
+      "urls": [
+        "https://enka.network/ui/UI_EquipIcon_Pole_Stardust.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Stardust.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Pole_Stardust.svg",
+      "source": "https://enka.network/ui/UI_EquipIcon_Pole_Stardust.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 8110,
+      "sha256": "0e1059972efb0388d594da99f678443b63fc507068eecbeda8398880f7750ca5",
+      "embeddedWebpBytes": 5962,
+      "embeddedWebpSha256": "7bf8ff005d6c96905a9b3ab1c5078726b5432c6ffc10ff48c2c87164d4d9beb1",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "匣里龙吟",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+        "https://enka.network/ui/UI_EquipIcon_Sword_Rockkiller.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Sword_Rockkiller.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Rockkiller.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 8950,
+      "sha256": "8604eeb74dabfd969d763a10ba8826d5b2dab4117c6df5247532b56934fab5bf",
+      "embeddedWebpBytes": 6592,
+      "embeddedWebpSha256": "7bc096c251098fed93d6e94e4c1793ea858486ae8a3b6529990275950a362563",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "弓藏",
+      "urls": [
+        "https://enka.network/ui/UI_EquipIcon_Bow_Recluse.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Recluse.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Bow_Recluse.svg",
+      "source": "https://enka.network/ui/UI_EquipIcon_Bow_Recluse.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 17678,
+      "sha256": "7d91db09972bd7ccbc67008c3d1719a9cfc2cf14890669822f654e27dce3752d",
+      "embeddedWebpBytes": 13138,
+      "embeddedWebpSha256": "7b05e58fd9805d01cbbf25ebd986d018165fd102a5c11f2337177407a67d089b",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "弹弓",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Sling.png",
+        "https://enka.network/ui/UI_EquipIcon_Bow_Sling.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Bow_Sling.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Sling.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 11290,
+      "sha256": "0f3d99b98934f962566b090161a4211ccc7c8b7d771fbe7d4bbd479b9bba397c",
+      "embeddedWebpBytes": 8348,
+      "embeddedWebpSha256": "0813ac2b369cef82a747e8f90696a9f5ea6df0cf19c808bc38b9ab06619bb7d8",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "昭心",
+      "urls": [
+        "https://enka.network/ui/UI_EquipIcon_Catalyst_Truelens.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Truelens.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Catalyst_Truelens.svg",
+      "source": "https://enka.network/ui/UI_EquipIcon_Catalyst_Truelens.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 14606,
+      "sha256": "4c6931eef3ff3b9e36f9d3e44afaf0ce273713fe86c84e98f9f516b88a2d3a25",
+      "embeddedWebpBytes": 10834,
+      "embeddedWebpSha256": "4924d8b28a6dfceb69e0a0e49c0ecf749fc27dbd2bfb72489ac875a8f82078d2",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "沐浴龙血的剑",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Siegfry.png",
+        "https://enka.network/ui/UI_EquipIcon_Claymore_Siegfry.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Claymore_Siegfry.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Siegfry.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 11598,
+      "sha256": "c38ca65c38bf10fa59a365c1aca8991b637ce6f3994d8c834dd25f5ee119f6cb",
+      "embeddedWebpBytes": 8580,
+      "embeddedWebpSha256": "153dbd0a37190ee95f0a572ddcc1b4a30f4c54fd4ea213fd069be6766639d197",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "流浪乐章",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+        "https://enka.network/ui/UI_EquipIcon_Catalyst_Troupe.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Catalyst_Troupe.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Troupe.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 10670,
+      "sha256": "c44aca20b7339b5928b9ccda9ce76d153b9a9fe36f322f149b866516b042ab7d",
+      "embeddedWebpBytes": 7882,
+      "embeddedWebpSha256": "7151fee5df6afcae47d07571c1916946c7a7f26843679fa828da0cd1c30316b8",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "神射手之誓",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arjuna.png",
+        "https://enka.network/ui/UI_EquipIcon_Bow_Arjuna.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Bow_Arjuna.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Arjuna.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 14038,
+      "sha256": "55a6511ed924fd608f8ed42e35bcfb058f43111a69c7a1abd89fd76e4ccf9644",
+      "embeddedWebpBytes": 10410,
+      "embeddedWebpSha256": "4b9bf4272fd813c88de78e9ec375395f6d2a27e22c13f0a767e5d2e8407fa20c",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "祭礼剑",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+        "https://enka.network/ui/UI_EquipIcon_Sword_Fossil.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Sword_Fossil.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Fossil.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 10250,
+      "sha256": "a9cd10cf4b98358d611b1c40817b6f543ecf504f92680d749366d21bd3619053",
+      "embeddedWebpBytes": 7568,
+      "embeddedWebpSha256": "406d2dbffe49adbbb501c5cec21fe6d06a5ab733a4751b12e9567d3e6cc07d65",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "祭礼大剑",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+        "https://enka.network/ui/UI_EquipIcon_Claymore_Fossil.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Claymore_Fossil.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Fossil.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 13426,
+      "sha256": "086e580c249887d01cce5fee191f8a83946a4871badb58d00d8bda4e9a814169",
+      "embeddedWebpBytes": 9950,
+      "embeddedWebpSha256": "774586c0c9b1ebca839a6155de4bc8ac4f309cc24aa9e2b237a7144fe4ffd1d4",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "祭礼弓",
+      "urls": [
+        "https://enka.network/ui/UI_EquipIcon_Bow_Fossil.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Fossil.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Bow_Fossil.svg",
+      "source": "https://enka.network/ui/UI_EquipIcon_Bow_Fossil.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 12694,
+      "sha256": "5b5dc590a1706392e2b73a4ee87cfc3ac452caf610494bdee7faad259a18c2a3",
+      "embeddedWebpBytes": 9402,
+      "embeddedWebpSha256": "3c7ced3c79877ff25de0d552308325afb4f65bda1003a6a54e55515387c5a4b4",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "祭礼残章",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+        "https://enka.network/ui/UI_EquipIcon_Catalyst_Fossil.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Catalyst_Fossil.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Fossil.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 14434,
+      "sha256": "63747abeece32c9fc82b7b9dc28e57adac093d14a9c7ee076b9c503ff56f1125",
+      "embeddedWebpBytes": 10706,
+      "embeddedWebpSha256": "4f0e3971f193b3bfd1e735cc84ea5414dd8629f630b08785ed7e04e119614ab7",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "笛剑",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+        "https://enka.network/ui/UI_EquipIcon_Sword_Troupe.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Sword_Troupe.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Troupe.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 10350,
+      "sha256": "bee5f72166aba746e864c167e250fe6bd13f3ee9f973d8aeb132c2e1f42c0e75",
+      "embeddedWebpBytes": 7644,
+      "embeddedWebpSha256": "f80560cfac40ee25848056f81b6387da9cdfa3368cd963975703da75561cf8c9",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "绝弦",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+        "https://enka.network/ui/UI_EquipIcon_Bow_Troupe.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Bow_Troupe.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Troupe.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 19242,
+      "sha256": "77754dc67dc1cf003691f87e9d6a3039575ec1d9c4468674b49cb621c24dc8f5",
+      "embeddedWebpBytes": 14312,
+      "embeddedWebpSha256": "e1e6deaddaac181c01bc1cd1569799c72345201db1c939a72b6e9aec85eb42c5",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "翡玉法球",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Jade.png",
+        "https://enka.network/ui/UI_EquipIcon_Catalyst_Jade.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Catalyst_Jade.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Jade.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 12714,
+      "sha256": "fad57b421f6ae90492114b4312db3ed6ac475d42fc4aa83de8dfc619613067ef",
+      "embeddedWebpBytes": 9416,
+      "embeddedWebpSha256": "72a3b445bf79473216d5d8d19f43656572417ece03d412d507372ea3f3fb443e",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "西风剑",
+      "urls": [
+        "https://enka.network/ui/UI_EquipIcon_Sword_Zephyrus.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Zephyrus.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Sword_Zephyrus.svg",
+      "source": "https://enka.network/ui/UI_EquipIcon_Sword_Zephyrus.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 8974,
+      "sha256": "fa8632ce0ea4ba468441427f10b68cc44bdd411c6bfacc2d87e2653034530362",
+      "embeddedWebpBytes": 6610,
+      "embeddedWebpSha256": "723079501e60b2d768a1bf6587bff1d58a9d2c4580720af7925a6f7e14928299",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "西风大剑",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+        "https://enka.network/ui/UI_EquipIcon_Claymore_Zephyrus.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Claymore_Zephyrus.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Zephyrus.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 12158,
+      "sha256": "36837bc4792fb6d0cbad1ed762f39c26b2719e30f2cbc54d8fa562edb6c2ba7d",
+      "embeddedWebpBytes": 8998,
+      "embeddedWebpSha256": "0abcdd93f43609e027dc5b0d2f3b35a29c4b55d06919e49f0983e7f9d2bf329e",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "西风猎弓",
+      "urls": [
+        "https://enka.network/ui/UI_EquipIcon_Bow_Zephyrus.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Zephyrus.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Bow_Zephyrus.svg",
+      "source": "https://enka.network/ui/UI_EquipIcon_Bow_Zephyrus.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 13602,
+      "sha256": "37dbfe9e7937ec34864c4e2c056d05b5c7484dae7aa292fdf909d04b867aca93",
+      "embeddedWebpBytes": 10082,
+      "embeddedWebpSha256": "9cb084d50d34f1133a92d78876272ae20d285897b5b0928e008c02f8fbdd4553",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "西风秘典",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+        "https://enka.network/ui/UI_EquipIcon_Catalyst_Zephyrus.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Catalyst_Zephyrus.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Zephyrus.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 11738,
+      "sha256": "30aebf7f3bc72a6ab9e62786d30256fa93a69ff280e43b97471a65ad2ad83555",
+      "embeddedWebpBytes": 8684,
+      "embeddedWebpSha256": "0eb283d88611918f65c50517f5a53375ad62713c1926bd9b85d5c19da4fff08a",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "西风长枪",
+      "urls": [
+        "https://enka.network/ui/UI_EquipIcon_Pole_Zephyrus.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Zephyrus.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Pole_Zephyrus.svg",
+      "source": "https://enka.network/ui/UI_EquipIcon_Pole_Zephyrus.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 8894,
+      "sha256": "9627fe77b9b9b8e93d90cbc71ab22706516947c952a82794f922a6ceacb0f953",
+      "embeddedWebpBytes": 6550,
+      "embeddedWebpSha256": "804302b240215f290a8ec922c106516800e23827d11f71de986176ed95c3e4b9",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "讨龙英杰谭",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pulpfic.png",
+        "https://enka.network/ui/UI_EquipIcon_Catalyst_Pulpfic.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Catalyst_Pulpfic.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Pulpfic.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 10874,
+      "sha256": "caf8f83867f60b26764ca8dbaeccad8a073e55abea501cfb6bf818c20e23e2a6",
+      "embeddedWebpBytes": 8036,
+      "embeddedWebpSha256": "76f164ccd08c5d714ea1c8c84083f2a4b03d740b4213b43794e6f88d3ded7183",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "钟剑",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+        "https://enka.network/ui/UI_EquipIcon_Claymore_Troupe.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Claymore_Troupe.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Troupe.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 13110,
+      "sha256": "00af12776f53004300b81de611683e81962e0798ceb6eb69ec87679c1f449ff2",
+      "embeddedWebpBytes": 9712,
+      "embeddedWebpSha256": "7ca9ee1ba9efc27fd44be1c731a7e0889b664dce0938acf2fd16e4cc6e9dab55",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "铁影阔剑",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Glaive.png",
+        "https://enka.network/ui/UI_EquipIcon_Claymore_Glaive.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Claymore_Glaive.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Glaive.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 11338,
+      "sha256": "959dd65fa5425a70ae268a6742554e1ac0515250461412921d358472aeda2903",
+      "embeddedWebpBytes": 8384,
+      "embeddedWebpSha256": "621092de4aceefe5066388866219bc67f385b5dcc9244e480a5f47fa005d47bd",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "雨裁",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+        "https://enka.network/ui/UI_EquipIcon_Claymore_Perdue.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Claymore_Perdue.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Claymore_Perdue.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 12630,
+      "sha256": "0774a08dccad8d9a31d0c9cbce00714ce08ba56e2784517583d9449c2631da26",
+      "embeddedWebpBytes": 9354,
+      "embeddedWebpSha256": "b89419d451c34dfcb4b27d974ef1b65928212ef3940f580bc94bb3dcd9b28c7f",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "飞天御剑",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mitsurugi.png",
+        "https://enka.network/ui/UI_EquipIcon_Sword_Mitsurugi.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Sword_Mitsurugi.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Mitsurugi.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 8182,
+      "sha256": "40138bb797e57b6dc311d37f99aa7c7222aca3ef3f39cfd8feb15b8073dbd9ce",
+      "embeddedWebpBytes": 6018,
+      "embeddedWebpSha256": "1fb25e81898b669648f8c659cb0633eaecd1995119baa89bd3a3cfa23c64064f",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "魔导绪论",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Intro.png",
+        "https://enka.network/ui/UI_EquipIcon_Catalyst_Intro.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Catalyst_Intro.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Catalyst_Intro.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 8914,
+      "sha256": "00b8262ee0b95536f9cfa28e271ddecd7a3e1ae13491025e6e5b1af953c1572f",
+      "embeddedWebpBytes": 6566,
+      "embeddedWebpSha256": "6d7d4e761638571948f5cc8f307217a826063c6cba3614fa84eb485943314af0",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "鸦羽弓",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Crowfeather.png",
+        "https://enka.network/ui/UI_EquipIcon_Bow_Crowfeather.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Bow_Crowfeather.svg",
+      "source": "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Bow_Crowfeather.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 13718,
+      "sha256": "3eaa4d7b44d914ba993fcdee33da76a1a7be2928ae7af46a626552f9525e6b73",
+      "embeddedWebpBytes": 10168,
+      "embeddedWebpSha256": "7ea6a969d13cba924d26d0f15879f3757e16d4fc9e98b785b48305a1c7a3a207",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "黎明神剑",
+      "urls": [
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Sword_Dawn.png",
+        "https://enka.network/ui/UI_EquipIcon_Sword_Dawn.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Sword_Dawn.svg",
+      "source": "https://enka.network/ui/UI_EquipIcon_Sword_Dawn.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 9710,
+      "sha256": "2f38099a4cd3628fecd31fce4852f7d985d9226fb6dfe356f72a63dc31bce504",
+      "embeddedWebpBytes": 7162,
+      "embeddedWebpSha256": "c1c94b91797f91aff8c5faaa17b02de934ef4df9616609144f919678060560ff",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "黑缨枪",
+      "urls": [
+        "https://enka.network/ui/UI_EquipIcon_Pole_Noire.png",
+        "https://upload-os-bbs.mihoyo.com/game_record/genshin/equip/UI_EquipIcon_Pole_Noire.png"
+      ],
+      "type": "weapons",
+      "path": "assets/weapons/UI_EquipIcon_Pole_Noire.svg",
+      "source": "https://enka.network/ui/UI_EquipIcon_Pole_Noire.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 8694,
+      "sha256": "4b2f69850a2952445cb515fa33992212b7bbd5a092f178438a9877a2c4a47b9b",
+      "embeddedWebpBytes": 6400,
+      "embeddedWebpSha256": "cffdb2504ab6614ad6a4df030cc2643cb5e6f0e7a081165d348f983f7876ce06",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    }
+  ]
+}

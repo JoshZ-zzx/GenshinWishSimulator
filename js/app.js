@@ -3,10 +3,8 @@
       "use strict";
 
 
-      var workingImageSources = new Map();
-      function setRemoteArt(host, urls, fallback, eager) {
+      function setItemArt(host, urls, fallback, eager) {
         var originalKey = (urls || []).join('|');
-        if (workingImageSources.has(originalKey)) urls = [workingImageSources.get(originalKey)].concat(urls.filter(function (url) { return url !== workingImageSources.get(originalKey); }));
         var key = originalKey + ':' + fallback;
         if (host.getAttribute('data-image-key') === key) return;
         host.setAttribute('data-image-key', key);
@@ -23,11 +21,11 @@
         image.alt = '';
         image.loading = eager ? 'eager' : 'lazy';
         image.decoding = 'async';
+        image.fetchPriority = eager ? 'high' : 'low';
         image.referrerPolicy = 'no-referrer';
         var next = 0;
         image.onload = function () {
           if (image.parentNode !== host) return;
-          workingImageSources.set(originalKey, image.src);
           host.classList.add('is-loaded');
           host.removeAttribute('title');
         };
@@ -49,7 +47,7 @@
         host.replaceChildren();
         var art = document.createElement('span');
         art.className = 'element-art';
-        setRemoteArt(art, REMOTE_ELEMENT_IMAGES[element], element, true);
+        setItemArt(art, ELEMENT_IMAGES[element], element, true);
         var label = document.createElement('span');
         label.textContent = text;
         host.append(art, label);
@@ -59,7 +57,7 @@
         var preview = document.getElementById(select.id + '-preview');
         if (!preview) return;
         var name = select.value;
-        setRemoteArt(preview.querySelector('.remote-art'), REMOTE_ITEM_IMAGES[name], '✦', false);
+        setItemArt(preview.querySelector('.remote-art'), ITEM_IMAGES[name], '✦', false);
         var draft = settingsDraftElements || elementMap;
         preview.querySelector('small').textContent = name + ' · ' + (draft[name] || '风') + '元素';
       }
@@ -979,7 +977,7 @@
       }
 
       function renderFeaturedRoster() {
-        setRemoteArt(id("up-five-avatar"), REMOTE_ITEM_IMAGES[config.up5], '✦', true);
+        setItemArt(id("up-five-avatar"), ITEM_IMAGES[config.up5], '✦', true);
         id("up-character").textContent =
           config.up5;
 
@@ -1002,7 +1000,7 @@
               "up-four-name-" + number
             ).textContent = character;
 
-            setRemoteArt(id("up-four-avatar-" + number), REMOTE_ITEM_IMAGES[character], '✦', true);
+            setItemArt(id("up-four-avatar-" + number), ITEM_IMAGES[character], '✦', true);
             renderElementImage(id("up-four-element-" + number), element, element + "元素");
 
             card.style.setProperty(
@@ -1294,7 +1292,7 @@
               "true"
             );
 
-            setRemoteArt(icon, REMOTE_ITEM_IMAGES[result.name], result.type === "角色" ? '✦' : '⌁', false);
+            setItemArt(icon, ITEM_IMAGES[result.name], result.type === "角色" ? '✦' : '⌁', false);
 
             var name =
               document.createElement(
