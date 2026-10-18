@@ -422,19 +422,19 @@
         <header class="prediction-page-head">
           <div>
             <span>资源规划</span>
-            <h2>角色池 UP 五星出金预测</h2>
+            <h2>资源规划与出金预测</h2>
           </div>
 
           <p>
-            从相同初始状态独立重复模拟，评估现有纠缠之缘、原石及回收资源是否足以获得当期 UP 五星。
+            从一次相遇到命座目标，选择适合你的规划方式。
           </p>
         </header>
 
-        <div class="prediction-body">
-          <div class="prediction-controls">
-            <div class="prediction-form-grid">
+        <section class="planning-state" aria-labelledby="planning-state-title">
+          <div class="planning-state-head"><div><h3 id="planning-state-title">起始祈愿状态</h3><p>两个模式共用此处设置；切换模式无需重复填写。</p></div><button id="planning-sync" class="secondary-button" type="button">使用当前祈愿状态</button></div>
+          <div class="planning-state-grid">
               <label class="field">
-                <span>角色池五星垫抽数</span>
+                <span>五星垫抽数</span>
                 <input
                   id="prediction-five-pity"
                   type="number"
@@ -446,8 +446,8 @@
                 >
               </label>
 
-              <label class="field">
-                <span>角色池四星垫抽数(武器/角色均重置)</span>
+              <label class="field" data-single-only>
+                <span>四星垫抽数</span>
                 <input
                   id="prediction-four-pity"
                   type="number"
@@ -477,7 +477,7 @@
                 </select>
               </label>
 
-              <label class="field">
+              <label class="field" data-single-only>
                 <span>下一四星状态</span>
                 <select id="prediction-four-guarantee">
                   <option value="small">小保底</option>
@@ -485,6 +485,16 @@
                 </select>
               </label>
 
+          </div>
+        </section>
+        <div class="planning-tabs" role="tablist" aria-label="选择规划方式">
+          <button id="planning-tab-single" role="tab" aria-selected="true" aria-controls="planning-single" tabindex="0" data-planning-mode="single" type="button"><span>单个 UP</span><small>资源回收与出金预测</small></button>
+          <button id="planning-tab-multi" role="tab" aria-selected="false" aria-controls="planning-multi" tabindex="-1" data-planning-mode="multi" type="button"><span>多个 UP</span><small>命座目标与所需预算</small></button>
+        </div>
+        <section id="planning-single" class="planning-mode" role="tabpanel" aria-labelledby="planning-tab-single">
+        <div class="prediction-body">
+          <div class="prediction-controls">
+            <div class="prediction-form-grid">
               <label class="field">
                 <span>纠缠之缘</span>
                 <input
@@ -720,31 +730,34 @@
             </div>
           </div>
         </div>
+        </section>
+        <section id="planning-multi" class="planning-mode" role="tabpanel" aria-labelledby="planning-tab-multi" hidden>
+          <div class="prediction-body multi-planning-body">
+            <div class="prediction-controls">
+              <div class="planning-mode-intro"><h3>多目标与预算规划</h3><p>设定额外需要的 UP 数量，计算预算内成功率，以及不同把握对应的抽数。</p></div>
+              <div class="prediction-form-grid">
+                <label class="field full-span"><span>额外需要的 UP 份数</span><input id="planner-copies" type="number" min="1" max="14" value="1" step="1" inputmode="numeric"><small class="field-hint">一个 UP 填 1；从未持有到满命填 7。</small></label>
+                <label class="field"><span>可用预算（抽）</span><input id="planner-budget" type="number" min="0" max="10000" value="180" step="1" inputmode="numeric"></label>
+                <label class="field"><span>独立模拟次数</span><select id="planner-runs"><option value="20000">20,000 次</option><option value="100000">100,000 次</option></select></label>
+              </div>
+              <p class="prediction-assumption">适用于角色命座或依次获取不同角色，同类角色活动池的保底连续继承。本模式不计星辉、星尘回收及未来收入。</p>
+              <button id="planner-start" class="prediction-run" type="button">计算成功率与所需预算</button>
+              <button id="planner-cancel" class="secondary-button planner-cancel" type="button" disabled hidden>取消本次计算</button>
+              <progress id="planner-progress" class="prediction-run-progress" max="100" value="0" hidden aria-label="多目标模拟进度"></progress>
+              <p id="planner-status" class="prediction-run-status" role="status" aria-live="polite"></p>
+            </div>
+            <div class="prediction-results">
+              <div id="planner-placeholder" class="prediction-placeholder"><span class="planning-placeholder-mark" aria-hidden="true">✦</span><h3>为下一段旅程留足预算</h3><p>填写目标与预算后开始计算。<br>结果将展示成功率、预算档位和所需补充的抽数。</p></div>
+              <div id="planner-result" hidden aria-live="polite"></div>
+              <p class="planning-result-note">结果为随机模拟估计，不能预测真实账号；概率模型沿用本工具的机制说明。</p>
+            </div>
+          </div>
+        </section>
       </div>
 
       <p class="tiny-footer">
         非官方概率模拟工具 · 数据仅保存在当前浏览器
       </p>
-    </section>
-    <section class="extension-panel" aria-labelledby="planner-title">
-      <div class="extension-heading"><div><small>PLAN YOUR WISHES</small><h2 id="planner-title">多目标与预算规划</h2></div><span>角色活动祈愿</span></div>
-      <p>计算额外获得多个 UP 五星的总预算，可用于命座或依次抽取不同角色。沿用上方预测区的初始保底与捕获明光状态；不同角色按同类角色活动池规则、保底连续继承计算。</p>
-      <div class="planner-fields">
-        <label class="field"><span>额外需要的 UP 份数</span><input id="planner-copies" type="number" min="1" max="14" value="1" step="1"></label>
-        <label class="field"><span>可用预算（抽）</span><input id="planner-budget" type="number" min="0" max="10000" value="180" step="1"></label>
-        <label class="field"><span>独立模拟次数</span><select id="planner-runs"><option value="20000">20,000 次</option><option value="100000">100,000 次</option></select></label>
-      </div>
-      <div class="extension-actions"><button id="planner-start" type="button">计算成功率与所需预算</button><button id="planner-cancel" type="button" disabled>取消计算</button></div>
-      <progress id="planner-progress" max="100" value="0" hidden aria-label="多目标模拟进度"></progress>
-      <p id="planner-status" role="status" aria-live="polite">填写 1 表示一个 UP；从未持有到满命填写 7。</p>
-      <div id="planner-result" hidden></div>
-      <p class="extension-note">本规划使用与旧版一致的概率模型，结果为随机模拟估计，不含星辉、星尘回收或未来收入。需要回收估算时，请使用原有的“资源规划与出金预测”。计算无法预测真实账号的抽卡结果。</p>
-    </section>
-    <section class="extension-panel" aria-labelledby="backup-title">
-      <h2 id="backup-title">存档与迁移</h2>
-      <p>备份当前保底、累计统计、卡池配置和自定义列表；切换设备或域名前，请先导出。旧版没有持久保存逐抽历史，备份不包含已关闭页面中的临时结果。</p>
-      <div class="extension-actions"><button id="backup-export" type="button">导出完整存档</button><label class="file-button" for="backup-import">导入存档</label><input id="backup-import" type="file" accept=".json,application/json" hidden><a href="https://joshzhangzzx.top/GenshinMigration.html" target="_blank" rel="noopener">从 ToolBox 迁移旧存档 ↗</a></div>
-      <p id="backup-status" role="status" aria-live="polite">存档仅保存在当前浏览器，不会上传到服务器。</p>
     </section>
 
   </main>
@@ -765,7 +778,7 @@
         <div>
           <span>祈愿配置</span>
           <h2 id="settings-title">
-            调整卡池、状态与列表
+            祈愿设置
           </h2>
         </div>
 
@@ -779,7 +792,17 @@
         </button>
       </header>
 
-      <div class="modal-body settings-body">
+      <div class="settings-workspace">
+        <nav class="settings-nav" role="tablist" aria-label="设置分类" aria-orientation="vertical">
+          <button id="settings-tab-banner" type="button" role="tab" aria-selected="true" aria-controls="settings-panel-banner" tabindex="0" data-settings-page="banner"><span aria-hidden="true">✦</span><span>当期 UP</span></button>
+          <button id="settings-tab-state" type="button" role="tab" aria-selected="false" aria-controls="settings-panel-state" tabindex="-1" data-settings-page="state"><span aria-hidden="true">◷</span><span>保底与统计</span></button>
+          <button id="settings-tab-pools" type="button" role="tab" aria-selected="false" aria-controls="settings-panel-pools" tabindex="-1" data-settings-page="pools"><span aria-hidden="true">▦</span><span>池内范围</span></button>
+          <button id="settings-tab-catalog" type="button" role="tab" aria-selected="false" aria-controls="settings-panel-catalog" tabindex="-1" data-settings-page="catalog"><span aria-hidden="true">◇</span><span>角色与武器</span></button>
+          <button id="settings-tab-save" type="button" role="tab" aria-selected="false" aria-controls="settings-panel-save" tabindex="-1" data-settings-page="save"><span aria-hidden="true">↗</span><span>存档与迁移</span></button>
+        </nav>
+        <div class="settings-content">
+          <section id="settings-panel-banner" class="settings-page" role="tabpanel" aria-labelledby="settings-tab-banner"><header class="settings-page-head"><span>当期 UP</span><h3>选择概率提升角色</h3><p>选择一名五星与三名四星 UP，保存后应用到常规祈愿。</p></header><div class="settings-page-fields">
+
         <label class="field">
           <span>五星 UP 角色</span>
           <select id="up-five-select"></select>
@@ -811,7 +834,7 @@
 
         <div class="up-reset-row">
           <div>
-            <b>恢复源码中的当期 UP</b>
+            <b>恢复预设 UP</b>
             <small>
               读取项目预设的默认五星与四星 UP；祈愿记录及自定义列表不会清空，保存后生效。
             </small>
@@ -826,6 +849,9 @@
           </button>
         </div>
 
+
+</div></section>
+          <section id="settings-panel-state" class="settings-page" role="tabpanel" aria-labelledby="settings-tab-state" hidden><header class="settings-page-head"><span>保底与统计</span><h3>接续你的祈愿进度</h3><p>设置垫抽、保底状态，或在需要时调整累计统计。</p></header><div class="settings-page-fields">
         <section
           class="settings-section"
           aria-labelledby="wish-state-settings-title"
@@ -962,6 +988,9 @@
           </div>
         </details>
 
+
+</div></section>
+          <section id="settings-panel-pools" class="settings-page" role="tabpanel" aria-labelledby="settings-tab-pools" hidden><header class="settings-page-head"><span>池内范围</span><h3>调整参与抽取的物品</h3><p>选择常驻五星、四星角色与武器、三星武器的抽取范围。</p></header><div class="settings-page-fields">
         <label class="field">
           <span>
             常驻五星池
@@ -1010,6 +1039,9 @@
           ></select>
         </label>
 
+
+</div></section>
+          <section id="settings-panel-catalog" class="settings-page" role="tabpanel" aria-labelledby="settings-tab-catalog" hidden><header class="settings-page-head"><span>角色与武器</span><h3>管理自定义列表</h3><p>添加角色、设置元素，或维护各分类中的角色与武器。</p></header><div class="settings-page-fields">
         <section
           class="pool-manager"
           aria-labelledby="pool-manager-title"
@@ -1106,19 +1138,29 @@
             </div>
           </div>
         </section>
-      </div>
-
-      <footer class="modal-foot">
-        <button
+      
+</div></section>
+          <section id="settings-panel-save" class="settings-page" role="tabpanel" aria-labelledby="settings-tab-save" hidden><header class="settings-page-head"><span>存档与迁移</span><h3>备份与恢复祈愿旅程</h3><p>在不同设备、浏览器或域名之间迁移已保存的数据。</p></header><div class="settings-page-fields">
+<div class="save-settings">
+      <div class="save-status-card"><span aria-hidden="true">◇</span><div><b>你的祈愿旅程，随时带走</b><p>存档只保存在此浏览器，导出文件后可在新设备或新域名恢复。</p></div></div>
+      <p>备份包含已保存的保底、累计统计、卡池与自定义列表；修改设置后请先保存。旧版临时逐抽结果不在备份范围。</p>
+      <div class="save-actions"><button id="backup-export" class="primary-button" type="button">导出完整存档</button><label class="secondary-button file-button" for="backup-import">导入存档</label><input id="backup-import" type="file" accept=".json,application/json" hidden><a href="https://joshzhangzzx.top/GenshinMigration.html" target="_blank" rel="noopener">从 ToolBox 迁移旧存档 ↗</a></div>
+      <p id="backup-status" role="status" aria-live="polite">存档仅保存在当前浏览器，不会上传到服务器。</p>
+    </div>
+<div class="save-reset-zone"><div><b>重置祈愿记录</b><p>清除当前保底与累计统计，保留卡池配置。操作前建议先导出存档。</p></div>        <button
           id="reset-record"
           class="danger-button"
           type="button"
         >
           重置祈愿记录
-        </button>
+        </button></div>
+</div></section>
+        </div>
+      </div>
 
+      <footer class="modal-foot settings-footer"><p id="settings-footer-note">所有分类的修改统一保存。</p>
         <button
-          class="secondary-button"
+          id="settings-cancel" class="secondary-button"
           type="button"
           data-close="settings-modal"
         >
@@ -1182,21 +1224,21 @@
         <article>
           <b>资源与出金预测</b>
           <p>
-            通过顶部菜单切换。五星垫抽可对应提瓦特小助手的“角色”栏；四星垫抽是角色池距最近四星角色或武器的抽数。填写资源与模拟轮数后运行，页面会同时显示汇总和出金抽数频率分布，可切换每 5、10 或 20 抽为一个区间；完整逐轮结果仍可下载 CSV。
+            通过顶部菜单进入后，选择“单个 UP”评估现有资源与回收，或选择“多个 UP”计算命座等目标的成功率与预算。两个模式共用顶部的起始祈愿状态，切换无需重复填写。五星垫抽可对应提瓦特小助手的“角色”栏；四星垫抽是角色池距最近四星角色或武器的抽数。填写资源与模拟轮数后运行，页面会同时显示汇总和出金抽数频率分布，可切换每 5、10 或 20 抽为一个区间；完整逐轮结果仍可下载 CSV。
           </p>
         </article>
 
         <article>
           <b>设置与列表管理</b>
           <p>
-            右上角齿轮可选择当期五星与四星 UP、指定当前垫数与保底状态，并在需要时接续全部累计统计。点击“重置 UP 卡池”可读取源码中的最新默认 UP，不会清空祈愿记录或自定义列表。列表管理器仍可添加、删除或恢复默认条目；自定义角色时请同时选择正确元素。
+            右上角齿轮内可按分类切换“当期 UP”“保底与统计”“池内范围”“角色与武器”和“存档与迁移”。切换分类保留未保存的输入，点击“保存全部配置”统一生效。点击“重置 UP 卡池”可读取源码中的最新默认 UP，不会清空祈愿记录或自定义列表。列表管理器仍可添加、删除或恢复默认条目；自定义角色时请同时选择正确元素。
           </p>
         </article>
 
         <article>
           <b>数据说明</b>
           <p>
-            所有设置和祈愿记录仅存于当前浏览器的本地存储；清理浏览器数据或更换设备后不会自动同步。概率拟合的边界与未公开机制请查看“概率与机制说明”。
+            所有设置和祈愿记录仅存于当前浏览器的本地存储；清理浏览器数据或更换设备后不会自动同步。可以在设置的“存档与迁移”中导出备份或导入旧存档。概率拟合的边界与未公开机制请查看“概率与机制说明”。
           </p>
         </article>
       </div>

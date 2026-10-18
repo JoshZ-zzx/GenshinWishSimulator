@@ -3034,6 +3034,7 @@
         if (
           unique(up4).length !== 3
         ) {
+          selectSettingsPage('banner', true);
           showToast(
             "三名四星 UP 角色不能重复"
           );
@@ -3047,6 +3048,7 @@
           !fourWeapons.length ||
           !threeWeapons.length
         ) {
+          selectSettingsPage('pools', true);
           showToast(
             "常驻五星、四星角色、四星武器和三星武器池均不可为空"
           );
@@ -3148,6 +3150,7 @@
         if (modalId === "settings-modal") {
           settingsDraftCatalogs = null;
           settingsDraftElements = null;
+          id('settings-open').focus();
         }
 
         if (
@@ -3494,6 +3497,71 @@
         );
       }
 
+      function selectSettingsPage(name, moveFocus) {
+        var tabs = Array.from(document.querySelectorAll('[data-settings-page]'));
+        tabs.forEach(function (tab) {
+          var active = tab.dataset.settingsPage === name;
+          tab.setAttribute('aria-selected', String(active));
+          tab.tabIndex = active ? 0 : -1;
+          id(tab.getAttribute('aria-controls')).hidden = !active;
+          if (active && moveFocus) tab.focus();
+        });
+        var content = document.querySelector('.settings-content');
+        if (content) content.scrollTop = 0;
+        id('settings-save').hidden = name === 'save';
+        id('settings-cancel').textContent = name === 'save' ? '关闭' : '取消';
+        id('settings-footer-note').textContent = name === 'save' ? '导入导出使用已保存的数据。' : '所有分类的修改统一保存。';
+      }
+
+      function setupWorkspaceNavigation() {
+        function bindTabs(selector, activate) {
+          var tabs = Array.from(document.querySelectorAll(selector));
+          tabs.forEach(function (tab, index) {
+            tab.addEventListener('click', function () { activate(tab, false); });
+            tab.addEventListener('keydown', function (event) {
+              var next;
+              if (event.key === 'ArrowDown' || event.key === 'ArrowRight') next = (index + 1) % tabs.length;
+              if (event.key === 'ArrowUp' || event.key === 'ArrowLeft') next = (index - 1 + tabs.length) % tabs.length;
+              if (event.key === 'Home') next = 0;
+              if (event.key === 'End') next = tabs.length - 1;
+              if (next !== undefined) { event.preventDefault(); activate(tabs[next], true); }
+            });
+          });
+        }
+        bindTabs('[data-settings-page]', function (tab, focus) { selectSettingsPage(tab.dataset.settingsPage, focus); });
+        var mobileSettings = window.matchMedia('(max-width: 600px)');
+        function updateSettingsOrientation() {
+          document.querySelector('.settings-nav').setAttribute('aria-orientation', mobileSettings.matches ? 'horizontal' : 'vertical');
+        }
+        updateSettingsOrientation();
+        mobileSettings.addEventListener('change', updateSettingsOrientation);
+        bindTabs('[data-planning-mode]', function (selected, focus) {
+          var mode = selected.dataset.planningMode;
+          document.querySelectorAll('[data-planning-mode]').forEach(function (tab) {
+            var active = tab === selected;
+            tab.setAttribute('aria-selected', String(active));
+            tab.tabIndex = active ? 0 : -1;
+            id(tab.getAttribute('aria-controls')).hidden = !active;
+          });
+          document.querySelectorAll('[data-single-only]').forEach(function (field) { field.hidden = mode !== 'single'; });
+          document.querySelector('.planning-state-grid').classList.toggle('multi-state', mode === 'multi');
+          if (focus) selected.focus();
+        });
+        id('planning-sync').addEventListener('click', function () { syncPredictionState(); showToast('已使用当前祈愿的保底状态'); });
+        // Keep keyboard focus within the settings dialog while it is open.
+        id('settings-modal').addEventListener('keydown', function (event) {
+          if (event.key !== 'Tab') return;
+          var controls = Array.from(this.querySelectorAll('button, input, select, a[href], [tabindex="0"]')).filter(function (el) {
+            return !el.disabled && el.tabIndex >= 0 && el.getClientRects().length;
+          });
+          var first = controls[0], last = controls[controls.length - 1];
+          if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+          if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+        });
+      }
+
+      setupWorkspaceNavigation();
+
       setupExtensions();
       function setupExtensions() {
         var plannerWorker = null;
@@ -3502,6 +3570,8 @@
           plannerWorker = null;
           id('planner-start').disabled = false;
           id('planner-cancel').disabled = true;
+          id('planner-cancel').hidden = true;
+          id('planner-placeholder').hidden = !id('planner-result').hidden;
           id('planner-progress').hidden = true;
           id('planner-status').textContent = message;
         }
@@ -3512,10 +3582,12 @@
           var copies = Number(copiesInput.value), budget = Number(budgetInput.value), runs = Number(id('planner-runs').value);
           if (!Number.isInteger(copies) || copies < 1 || copies > 14 || !Number.isInteger(budget) || budget < 0 || budget > 10000) { showToast('请填写有效的整数目标与预算'); return; }
           id('planner-result').hidden = true;
+          id('planner-placeholder').hidden = true;
           try { plannerWorker = new Worker(new URL('./planner-worker.js', new URL('js/app.js', document.baseURI))); }
           catch (e) { stopPlanner('浏览器无法启动后台计算，请通过在线站点访问。'); return; }
           id('planner-start').disabled = true;
           id('planner-cancel').disabled = false;
+          id('planner-cancel').hidden = false;
           id('planner-progress').hidden = false;
           id('planner-progress').value = 0;
           id('planner-status').textContent = '正在后台计算，页面可以继续使用…';
@@ -3525,13 +3597,13 @@
             var result = event.data;
             if (result.error) { stopPlanner('计算参数无效，请调整后重试。'); return; }
             if (!result.done) { id('planner-progress').value = result.progress; return; }
-            var cards = document.createElement('div'); cards.className = 'planner-cards';
+            var cards = document.createElement('div'); cards.className = 'prediction-summary planner-summary';
             [['预算内成功率', (result.rate * 100).toFixed(2) + '%', '预算 ' + budget + ' 抽'], ['50% 所需预算', result.q50 + ' 抽', result.q50 * 160 + ' 原石等值'], ['90% 所需预算', result.q90 + ' 抽', result.q90 * 160 + ' 原石等值'], ['95% 所需预算', result.q95 + ' 抽', result.q95 * 160 + ' 原石等值']].forEach(function (entry) {
-              var card = document.createElement('div'); var label = document.createElement('span'); label.textContent = entry[0];
+              var card = document.createElement('article'); var label = document.createElement('span'); label.textContent = entry[0];
               var value = document.createElement('strong'); value.textContent = entry[1]; var detail = document.createElement('small'); detail.textContent = entry[2];
               card.append(label, value, detail); cards.append(card);
             });
-            var note = document.createElement('p');
+            var note = document.createElement('p'); note.className = 'planning-result-detail';
             note.textContent = '初始五星垫数 ' + settingsSnapshot.fivePity + '，' + (settingsSnapshot.guaranteed5 ? '大保底' : '小保底') + '，连续歪 ' + settingsSnapshot.radianceLosses + ' 次。目标：额外 ' + copies + ' 个 UP。平均需要 ' + result.mean.toFixed(1) + ' 抽；当前预算距 90% 档位还差 ' + Math.max(0, result.q90 - budget) + ' 抽。成功率约有 ±' + (result.margin * 100).toFixed(2) + ' 个百分点的 95% 抽样误差，未包含概率模型本身的误差。';
             id('planner-result').replaceChildren(cards, note); id('planner-result').hidden = false;
             stopPlanner('已完成 ' + runs.toLocaleString() + ' 次独立模拟。修改输入后需重新计算。');
