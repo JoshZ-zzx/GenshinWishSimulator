@@ -1,0 +1,94 @@
+name: 更新角色与物品图片
+run-name: 手动更新图片 · ${{ github.actor }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      refresh_existing:
+        description: 重新下载全部已有图片（通常无需勾选）
+        type: boolean
+        required: false
+        default: false
+
+permissions: {}
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: 下载、校验并提交图片
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - name: 读取 main 分支
+        uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: 准备 Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: 安装图片处理库
+        run: python -m pip install 'Pillow==12.0.0'
+      - name: 检查更新脚本
+        run: python -m unittest discover -s tests -p 'test_sync_assets.py' -v
+      - name: 下载与压缩图片
+        env:
+          REFRESH_EXISTING: ${{ inputs.refresh_existing }}
+        run: |
+          if [ "$REFRESH_EXISTING" = "true" ]; then
+            python scripts/sync-assets.py --refresh
+          else
+            python scripts/sync-assets.py
+          fi
+      - name: 提交图片和路径更新
+        id: commit
+        run: |
+          git add -- assets data/images.js index.html
+          if git diff --cached --quiet; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+            echo '图片及路径已是最新，无需提交或重新发布。' >> "$GITHUB_STEP_SUMMARY"
+          else
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update bundled simulator images'
+            git push origin HEAD:main
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+            echo '已自动提交更新，接下来发布网站。' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: 准备网站文件
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          mkdir -p _site
+          cp -a index.html css data js assets _site/
+          for file in CNAME .nojekyll; do
+            if [ -f "$file" ]; then cp "$file" _site/; fi
+          done
+      - name: 上传网站
+        if: steps.commit.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+          include-hidden-files: true
+
+  deploy:
+    name: 发布到 GitHub Pages
+    needs: sync
+    if: needs.sync.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 发布网站
+        id: deployment
+        uses: actions/deploy-pages@v4
