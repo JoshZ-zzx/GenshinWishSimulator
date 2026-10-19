@@ -74,7 +74,6 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: _site
-          include-hidden-files: true
 
   deploy:
     name: 发布到 GitHub Pages
