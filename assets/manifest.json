@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18",
+  "generatedAt": "2026-11-02",
   "note": "Non-official fan simulator. Game images and character designs belong to their respective rights holders. Source URLs record provenance, not a grant of license. Images resized and encoded to WebP for this site.",
   "assets": [
     {
@@ -1553,6 +1553,28 @@
       "encoding": "SVG image containing a self-contained WebP raster; no external references"
     },
     {
+      "name": "瓦列里",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Valeriy.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Valeriy.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Valeriy.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 19914,
+      "sha256": "cd451fca0d1fef63440d393c9baa7e5dd1e2998ae2c55754bdd61ed350842d8d",
+      "embeddedWebpBytes": 14816,
+      "embeddedWebpSha256": "f4f87b2b967b1d09b82ad61a178edf27e42f4bab317adbc4100fff4449154217",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
       "name": "瓦雷莎",
       "urls": [
         "https://enka.network/ui/UI_AvatarIcon_Varesa.png",
@@ -1740,6 +1762,28 @@
       "sha256": "1888bd0f314e2f73375b7ae1f8197ef70165ad6ff3d60d4af64d4a5b5522d977",
       "embeddedWebpBytes": 13830,
       "embeddedWebpSha256": "cd8d089b5e9e8bd4c54d2020a3c0c32b1f9e863aaaf3add6b4d1a9987fe2c548",
+      "encoding": "SVG image containing a self-contained WebP raster; no external references"
+    },
+    {
+      "name": "米提亚",
+      "urls": [
+        "https://enka.network/ui/UI_AvatarIcon_Mitya.png"
+      ],
+      "type": "characters",
+      "path": "assets/characters/UI_AvatarIcon_Mitya.svg",
+      "source": "https://enka.network/ui/UI_AvatarIcon_Mitya.png",
+      "originalSize": [
+        256,
+        256
+      ],
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 23470,
+      "sha256": "e27daa3dd2b771a36616bf33cc5b8143f6d214f3c98daeeefd7349e0acd2dd1b",
+      "embeddedWebpBytes": 17482,
+      "embeddedWebpSha256": "5c6742f293524594ef28616cee5cda98864cbea3ed076593bb130d7b1343889f",
       "encoding": "SVG image containing a self-contained WebP raster; no external references"
     },
     {

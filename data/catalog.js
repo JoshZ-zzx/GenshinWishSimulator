@@ -1,4 +1,5 @@
       var LIMITED_FIVE = [
+        "米提亚",
         "薇斯纳",
         "沃雅妮莎",
         "奥黛塔",
@@ -73,6 +74,7 @@
       ];
 
       var FOUR_CHARACTERS = [
+        "瓦列里",
         "阿罗夏",
         "布伦妮",
         "叶洛亚",
@@ -184,6 +186,8 @@
       ];
 
       var DEFAULT_ELEMENTS = {
+        "米提亚": "雷",
+        "瓦列里": "雷",
         "薇斯纳": "风",
         "沃雅妮莎": "水",
         "奥黛塔": "冰",
@@ -371,14 +375,16 @@
         "洛亨": "洛恩"
       };
 
+      // Update this preset when the featured event wishes change.
+      var CURRENT_BANNERS = {
+        fiveStars: ["米提亚", "芙宁娜"],
+        fourStars: ["瓦列里", "夏洛蒂", "罗莎莉亚"]
+      };
+
       var DEFAULT_CONFIG = {
-        up5: "丝柯克",
+        up5: CURRENT_BANNERS.fiveStars[0],
         standard5: STANDARD_FIVE.slice(),
-        up4: [
-          "塔利雅",
-          "坎蒂丝",
-          "米卡"
-        ],
+        up4: CURRENT_BANNERS.fourStars.slice(),
         fourPool: FOUR_CHARACTERS.slice(),
         fourWeapons: FOUR_WEAPONS.slice(),
         threeWeapons: THREE_WEAPONS.slice()

@@ -435,6 +435,12 @@
             saved.catalogs
           );
 
+          // Make new characters available to existing saves without replacing custom pools.
+          ["米提亚"].forEach(function (name) {
+            if (catalogs.limitedFive.indexOf(name) === -1 && catalogs.standardFive.indexOf(name) === -1) catalogs.limitedFive.unshift(name);
+          });
+          if (catalogs.fourCharacters.indexOf("瓦列里") === -1) catalogs.fourCharacters.unshift("瓦列里");
+
           elementMap = sanitizeElements(
             saved.elements
           );
@@ -812,6 +818,7 @@
 
         id("ten-wish").disabled =
           disabled;
+        renderCurrentBanners();
       }
 
       function formatAverage(
@@ -1029,9 +1036,61 @@
         );
       }
 
+      function setupCurrentBanners() {
+        var host = id("current-banners");
+        id("banner-switch-note").textContent = "切换继承保底与统计 · 共用四星 UP：" + CURRENT_BANNERS.fourStars.join("、");
+        CURRENT_BANNERS.fiveStars.forEach(function (name) {
+          var button = document.createElement("button");
+          button.type = "button";
+          button.className = "current-banner-button";
+          button.setAttribute("data-current-banner", name);
+          button.addEventListener("click", function () { selectCurrentBanner(name); });
+          host.append(button);
+        });
+      }
+
+      function renderCurrentBanners() {
+        Array.prototype.forEach.call(id("current-banners").children, function (button) {
+          var name = button.getAttribute("data-current-banner");
+          var selected = config.up5 === name && config.up4.length === CURRENT_BANNERS.fourStars.length &&
+            CURRENT_BANNERS.fourStars.every(function (four) { return config.up4.indexOf(four) !== -1; });
+          button.setAttribute("aria-pressed", String(selected));
+          button.textContent = name + (selected ? " · 当前祈愿" : " · 切换祈愿");
+          button.disabled = pulling;
+        });
+      }
+
+      function selectCurrentBanner(name) {
+        if (pulling || CURRENT_BANNERS.fiveStars.indexOf(name) === -1) return;
+        if (predictionRunning) {
+          showToast("请等待本次预测完成后再切换卡池");
+          return;
+        }
+        // Restore preset characters even if they were removed in custom settings.
+        catalogs.standardFive = catalogs.standardFive.filter(function (item) { return item !== name; });
+        catalogs.limitedFive = unique(catalogs.limitedFive.concat(name));
+        catalogs.fourCharacters = unique(catalogs.fourCharacters.concat(CURRENT_BANNERS.fourStars));
+        config.up5 = name;
+        config.up4 = CURRENT_BANNERS.fourStars.slice();
+        config.fourPool = unique(config.fourPool.concat(config.up4));
+        config.standard5 = config.standard5.filter(function (item) { return item !== name; });
+        if (!config.standard5.length) {
+          config.standard5 = DEFAULT_CONFIG.standard5.slice();
+          catalogs.standardFive = unique(catalogs.standardFive.concat(config.standard5));
+          catalogs.limitedFive = catalogs.limitedFive.filter(function (item) { return config.standard5.indexOf(item) === -1; });
+        }
+        [name].concat(config.up4).forEach(function (item) { elementMap[item] = DEFAULT_ELEMENTS[item]; });
+        saveData();
+        renderState();
+        syncPredictionState();
+        populateSettings(catalogs);
+        showToast("已切换至" + name + "祈愿，保底与统计已继承");
+      }
+
       function renderState() {
         applyElementTheme();
         renderFeaturedRoster();
+        renderCurrentBanners();
 
         id("banner-name").textContent =
           "「" +
@@ -3638,6 +3697,7 @@
       }
 
       loadData();
+      setupCurrentBanners();
       setupSelectionPreviews();
       populateSettings(catalogs);
       updateSelectionPreviews();

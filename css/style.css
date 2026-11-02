@@ -2626,3 +2626,38 @@
  .settings-footer button { flex:1; }
  .save-reset-zone { align-items:flex-start; flex-direction:column; gap:12px; }
 }
+
+/* Current event wishes share pity and featured four-star characters. */
+.current-banners {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px auto 0;
+}
+.current-banner-button {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 9px 20px;
+  background: rgba(255, 255, 255, .7);
+  color: var(--muted);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.current-banner-button[aria-pressed="true"] {
+  background: var(--theme-primary);
+  border-color: var(--theme-primary);
+  color: #fff;
+}
+.current-banner-button:focus-visible {
+  outline: 2px solid var(--theme-primary);
+  outline-offset: 3px;
+}
+.current-banner-button:disabled { opacity: .55; cursor: wait; }
+.banner-switch-note {
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.6;
+  margin: 8px 12px 0;
+}
