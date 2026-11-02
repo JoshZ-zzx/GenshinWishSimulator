@@ -198,6 +198,9 @@ var ITEM_IMAGES = {
   "瑶瑶": [
     "./assets/characters/UI_AvatarIcon_Yaoyao.svg?v=6033e1d0d315"
   ],
+  "瓦列里": [
+    "./assets/characters/UI_AvatarIcon_Valeriy.svg?v=cd451fca0d1f"
+  ],
   "瓦雷莎": [
     "./assets/characters/UI_AvatarIcon_Varesa.svg?v=06db3adf457d"
   ],
@@ -221,6 +224,9 @@ var ITEM_IMAGES = {
   ],
   "米卡": [
     "./assets/characters/UI_AvatarIcon_Mika.svg?v=1888bd0f314e"
+  ],
+  "米提亚": [
+    "./assets/characters/UI_AvatarIcon_Mitya.svg?v=e27daa3dd2b7"
   ],
   "纳西妲": [
     "./assets/characters/UI_AvatarIcon_Nahida.svg?v=6e6b2f739c3f"

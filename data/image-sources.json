@@ -1289,5 +1289,19 @@
       "https://static.wikia.nocookie.net/gensin-impact/images/8/88/Element_Cryo.png"
     ],
     "type": "elements"
+  },
+  {
+    "name": "米提亚",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Mitya.png"
+    ],
+    "type": "characters"
+  },
+  {
+    "name": "瓦列里",
+    "urls": [
+      "https://enka.network/ui/UI_AvatarIcon_Valeriy.png"
+    ],
+    "type": "characters"
   }
 ]
