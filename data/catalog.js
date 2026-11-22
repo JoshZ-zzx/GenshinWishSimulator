@@ -377,8 +377,8 @@
 
       // Update this preset when the featured event wishes change.
       var CURRENT_BANNERS = {
-        fiveStars: ["米提亚", "芙宁娜"],
-        fourStars: ["瓦列里", "夏洛蒂", "罗莎莉亚"]
+        fiveStars: ["兹白", "莉奈娅"],
+        fourStars: ["叶洛亚", "爱诺", "凝光"]
       };
 
       var DEFAULT_CONFIG = {
